@@ -1,3 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&display=swap');
+  .legend {
+    background-color: white;
+    color: black;
+  }
+  
 .App {
   text-align: center;
 }
@@ -35,4 +42,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Apply margin to the image cards */
+.card {
+  margin-right: 20px; /* Adjust the value to control the gap */
+}
+
+/* To avoid adding margin to the last card */
+.card:last-child {
+  margin-right: 0;
 }
