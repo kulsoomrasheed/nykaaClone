@@ -1,2 +1,2 @@
-# Nykaa Clone
+# Nykaa Clone 💄
 💄✨ Discover your beauty essentials with our Nykaa-inspired platform. Explore a vast selection of makeup, skincare, and wellness products. Experience seamless shopping and expert beauty advice, all in one place. 💅🛍️

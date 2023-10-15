@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "../App.css"
 const Carousell = () => {
   return (
-    <Box width={'100%'} margin={'auto'} marginBottom={3} >
+    <Box width={'94%'} margin={'auto'} marginBottom={3} borderRadius={6}>
  <Carousel
   
     showArrows={true}
