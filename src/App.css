@@ -45,10 +45,29 @@
 }
 /* Apply margin to the image cards */
 .card {
-  margin-right: 20px; /* Adjust the value to control the gap */
+  margin: 20px;
+  /* Adjust the value to control the gap */
 }
 
 /* To avoid adding margin to the last card */
 .card:last-child {
   margin-right: 0;
+}
+/* ImageCarousel.css */
+.custom-arrow {
+  background-color: #fe4980;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.custom-arrow:hover {
+  background-color: #fe2465;
+  color: white;
 }

@@ -262,3 +262,88 @@ export const justDropped=[
       "shades": ""
     }
   ]
+
+
+  export const actualJustDropped=[
+    {
+      "name": "Nykaa Festive '23 Glitter Nail Enamel",
+      "shades": "8 Shades",
+      "price": "₹249",
+      "rating": "",
+      "ratingcount": ""
+      ,'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/0/8/08e541fNYKAC00001797_1.png"
+    },
+    {
+      "name": "Daily Life Forever52 Coverup Foundation",
+      "shades": "15 Shades",
+      "price": "₹1699",
+      "rating": "",
+      "ratingcount": "",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/4/9/49aa6f63592499841013_1.png"
+    },
+    {
+      "name": "Cetaphil Hydrating Foaming Cream Cleanser for All skin types with Niacinamide and Aloevera",
+      "shades": "236ml",
+      "price": "₹712",
+      "rating": "5.0★",
+      "ratingcount": "/5  (4)",
+      'img':"https://images-static.nykaa.com/media/catalog/product/f/c/fc573a5CETAP00000097_2709231.jpg"
+    },
+    {
+      "name": "Cetaphil Brightening Serum with Antioxidant C & Advanced Peptide",
+      "shades": "30ml",
+      "price": "₹1954",
+      "rating": "5.0★",
+      "ratingcount": "/5  (1)",
+      'img':"https://images-static.nykaa.com/media/catalog/product/8/d/8da7f91CETAP00000098_0610231.jpg"
+    },
+    {
+      "name": "The Derma Co 2% Niacinamide High Coverage Foundation With 1% HA Complex & SPF 40 PA+++",
+      "shades": "7 Shades",
+      "price": "₹809",
+      "rating": "5.0★",
+      "ratingcount": "/5  (41)",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/d/0/d0dd53f8904417308891_1.jpg"
+    },
+    {
+      "name": "Lakme Glitterati Collection Shine Eyeliner",
+      "shades": "5 Shades",
+      "price": "₹440",
+      "rating": "",
+      "ratingcount": "",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/9/d/9d846d129657_H-8901030973727.jpg"
+    },
+    {
+      "name": "FAE Beauty Lip Whip 8H Matte Liquid Lipstick",
+      "shades": "10 Shades",
+      "price": "₹585",
+      "rating": "4.7★",
+      "ratingcount": "/5  (10)",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/3/e/3e5f656FAEBE00000102_1.jpg"
+    },
+    {
+      "name": "Benefit Cosmetics Big Festive Love Kit",
+      "shades": "3 pcs",
+      "price": "₹3000",
+      "rating": "",
+      "ratingcount": "",
+      'img':"https://images-static.nykaa.com/media/catalog/product/6/4/6440486BENEF00000484_1.jpg"
+    },
+    {
+      "name": "Renee Cosmetics Glam Stack 3 In 1 Lip & Cheek Tint",
+      "shades": "2 Shades",
+      "price": "₹495",
+      "rating": "",
+      "ratingcount": "",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/6/4/64330f08906121646597_1.jpg"
+    },
+    {
+      "name": "Lakme Glitterati Collection Shine Lipstick",
+      "shades": "10 Shades",
+      "price": "₹520",
+      "rating": "",
+      "ratingcount": "",
+      'img':"https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abe301bPLUMX00000283_01.jpg"
+    },
+    
+  ]

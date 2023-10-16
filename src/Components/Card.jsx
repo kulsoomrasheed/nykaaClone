@@ -14,7 +14,7 @@ const Cards = ({name,img ,price, offer,best}) => {
       alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
-    <Stack alignItems={'center'} alignContent={'center'} mt='3' spacing='1'>
+    <Stack alignItems={'center'}  alignContent={'center'} mt='3' spacing='1'>
       <Heading size={'xs'}>
         {name}
       </Heading>

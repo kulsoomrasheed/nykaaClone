@@ -4,8 +4,8 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 const TopBrandsCard = ({name,img,description , offer}) => {
   return (
     <div>
-      <Card maxW='lg' borderRadius={6}>
-  <CardBody>
+      <Card justifyContent={'center'} alignContent={'center'} maxW='lg' borderRadius={6}>
+  <CardBody >
     <Image
       src={img}
       alt='Green double couch with wooden legs'

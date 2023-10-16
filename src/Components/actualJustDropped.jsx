@@ -27,17 +27,17 @@ import { Box, Heading, Text } from '@chakra-ui/react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Cards from './Card'; // Assuming this component exists and is used to render individual cards
-import { justDropped } from '../data/TopBrands';
+import { actualJustDropped } from '../data/TopBrands';
 
-const JustDroppedProducts = () => {
+const ActualJustDropped = () => {
   return (
     <Box width="96%" gap={2} margin="auto" marginTop={5} marginBottom={3} borderRadius={6}>
         <Heading fontSize={'2xl'} textAlign={'left'} ml={6}>
 Hot List
 
-</Heading><Heading fontSize={'md'}  textAlign={'left'} ml={6}>Nykaa’s Super Sellers
+</Heading><Text  textAlign={'left'} ml={6}>Nykaa’s Super Sellers
 
-</Heading>
+</Text>
       <Carousel
         showArrows={true}
         showThumbs={false} // Disable thumbnail previews if you don't need them
@@ -45,7 +45,7 @@ Hot List
         centerMode={true}
         centerSlidePercentage={15}
       >
-        {justDropped.map((el, i) => (
+        {actualJustDropped.map((el, i) => (
           <div key={i}>
             <Cards {...el} />
           </div>
@@ -55,4 +55,4 @@ Hot List
   );
 };
 
-export default JustDroppedProducts;
+export default ActualJustDropped;
