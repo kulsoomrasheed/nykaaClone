@@ -11,6 +11,8 @@ import ActualJustDropped from "../Components/actualJustDropped";
 import Carousel3 from "../Components/Carousel3";
 import Sos from "../Components/Sos";
 import Spotliight from "../Components/Spotliight";
+import Radar from "../Components/Radar";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -54,6 +56,8 @@ const Home = () => {
       <JustDroppedProducts />
       <Spotliight/>
       <ActualJustDropped />
+      <Radar/>
+      <Footer/>
     </Box>
   );
 };

@@ -20,11 +20,12 @@ const Sos = () => {
         <Text color="white">On Must Haves</Text>
       </Stack>
     </Stack>
-    <Grid templateColumns='repeat(5, 1fr)' paddingTop={2}  marginTop={5} >
+    <Grid templateColumns='repeat(6, 1fr)' paddingTop={2}  marginTop={5} >
 <GridItem> <img src="https://images-static.nykaa.com/uploads/cba3534d-32b7-4596-80e0-df8393308087.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
 <GridItem><img src="https://images-static.nykaa.com/uploads/c1f46c79-70c2-4961-b743-8f7323135081.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
 <GridItem><img src="https://images-static.nykaa.com/uploads/d9b1ab62-a6b3-4f93-bdcd-8692baa4fdb0.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
 <GridItem><img src="https://images-static.nykaa.com/uploads/c7bebc0f-872d-4e09-892f-16231e693def.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
+<GridItem> <img src="https://images-static.nykaa.com/uploads/cba3534d-32b7-4596-80e0-df8393308087.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
 <GridItem><img src="https://images-static.nykaa.com/uploads/c2792382-0715-490f-94a5-0777efe5ac1d.jpg?tr=w-150,cm-pad_resize" alt="" /></GridItem>
 
     </Grid>

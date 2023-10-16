@@ -347,3 +347,56 @@ export const justDropped=[
     },
     
   ]
+
+  export const radar=[
+    {
+      "img": "https://images-static.nykaa.com/creatives/76e5a811-eb07-4534-86cc-16961c7a673a/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Upto 20% Off",
+      "description": "On Entire Range"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/7f515b8a-5e67-4191-813f-f23f2175ef17/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Upto 40% Off",
+      "description": "On Bestsellers"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/5c34b38b-bba7-46f7-a844-999561f3bdf2/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Flat 10% Off +",
+      "description": "B5G5 On Sheet Masks"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/ab3586a7-b4d0-4f00-b63f-1ccbebfc259e/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Upto 30% Off",
+      "description": "On Entire Range"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/49e5af2e-62a0-4078-873c-6e1cfa1fd4a8/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Flat 5% Off",
+      "description": "On Entire Range"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/b053fa2e-4580-4fc2-8362-72d9ea1cd5ec/default.jpeg?tr=w-240,cm-pad_resize",
+      "offer": "Up To 40% Off",
+      "description": "On Entire Range"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/83f040e1-7dd3-4c21-bd16-dea71d791cbc/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Drench the Lip",
+      "description": "in Sheer Hydration!"
+    },
+    {
+      "img": "https://images-static.nykaa.com/creatives/39bdb712-55b0-417f-a85a-9dd2d1b6d1dc/default.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Upto 30% Off",
+      "description": "On Entire Range!"
+    },
+    {
+      "img": "https://images-static.nykaa.com/uploads/652c303a-d60a-4bb8-91bb-bdae32a19fa6.jpg?tr=w-240,cm-pad_resize",
+      "offer": "Award Winning",
+      "description": "Root Treatment Oil!"
+    },
+    {
+      "img": "https://images-static.nykaa.com/uploads/432fab36-c5f8-48fd-8d44-d95f497e513d.jpg?tr=w-240,cm-pad_resize",
+      "offer": "On ₹3000:",
+      "description": "Complexion Stick"
+    }
+  ]
