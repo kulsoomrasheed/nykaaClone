@@ -239,28 +239,7 @@ export const justDropped=[
       "best": "",
       "shades": ""
     },
-    {
-      "custom-tag": "",
-      "href": "https://www.nykaa.com/nykaa-so-creme-creamy-matte-lipstick/p/683166?productId=683166&pps=19",
-      "img": "",
-      "name": "Nykaa Cosmetics So Creme! Creamy Matte Lipstick",
-      "price": "₹197",
-      "offer": "Enjoy Free Gift",
-      "qty": "( 91353 )",
-      "best": "",
-      "shades": "18 shades"
-    },
-    {
-      "custom-tag": "",
-      "href": "https://www.nykaa.com/cetaphil-cleansing-lotion/p/22032?productId=22032&skuId=22031&pps=20",
-      "img": "",
-      "name": "Cetaphil Gentle Skin Cleanser |Dry to Normal Skin with Niaci...",
-      "price": "₹276",
-      "offer": "",
-      "qty": "( 85760 )",
-      "best": "",
-      "shades": ""
-    }
+    
   ]
 
 

@@ -52,11 +52,13 @@ const Home = () => {
         alt=""
       />
       <Carousel2 />
+      
       <TopBrands />
       <Flex width={"100%"} bgColor={"#fff2e3"}>
         <Carousel3 />
       </Flex>
       <Sos/>
+      
       <JustDroppedProducts />
       <Spotliight/>
       <ActualJustDropped />

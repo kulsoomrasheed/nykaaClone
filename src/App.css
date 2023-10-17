@@ -1,10 +1,6 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@300&display=swap');
-  .legend {
-    background-color: white;
-    color: black;
-  }
-  
+ 
 .App {
   text-align: center;
 }
@@ -109,4 +105,13 @@
   100% {
     color: #FF6EB4;
   }
+}
+
+.card{
+  border-radius: 50px;
+}
+.legend {
+  
+  background-color: white;
+  color: black;
 }

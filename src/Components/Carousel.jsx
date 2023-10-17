@@ -43,7 +43,7 @@ const data=[
 ]
 const Carousell = () => {
   return (
-    <Box width={'94%'} margin={'auto'} marginBottom={3} borderRadius={6}>
+    <Box width={'97%'} margin={'auto'} marginBottom={3} borderRadius={6}>
  <Carousel
   
     showArrows={true}
@@ -54,35 +54,35 @@ const Carousell = () => {
     centerSlidePercentage={33.3}
   ><div class="card">
   <img src={data[0].img} alt="Image 5" />
-  <Stack className="legend" padding={10}>  <Text> Best of Korean Skincare</Text>
-    <Text>Additional 10% off on 799+</Text></Stack>
+  <Stack className="legend" padding={10} fontSize={'lg'}>  <Text>{data[0].offer}</Text>
+    <Text>{data[0].description}</Text></Stack>
   
 </div><div class="card">
   <img src={data[5].img} alt="Image 5" />
-  <Stack className="legend" padding={10}>  <Text> 15% Off</Text>
-    <Text>On 3000+: 3 BestSelling Gifts</Text></Stack></div>
+  <Stack className="legend" padding={10}>  <Text>{data[5].offer}</Text>
+    <Text>{data[5].description}</Text></Stack></div>
     <div class="card">
       <img src={data[4].img} alt="Image 1" />
-      <Stack className="legend" padding={10}>  <Text> On 3500+ : 3 piece Gift-Set</Text>
-    <Text>Upto 20% Off on Festive Kits</Text></Stack>
+      <Stack className="legend" padding={10}>  <Text>{data[4].offer}</Text>
+    <Text>{data[4].description}</Text></Stack>
       </div>
     <div class="card" >
       <img src={data[6].img} alt="Image 2" />
-      <p className="legend">Legend 2</p>
-    </div>
+      <Stack className="legend" padding={10}>  <Text>{data[6].offer}</Text>
+    <Text>{data[6].description}</Text></Stack>    </div>
     <div class="card">
       <img src={data[1].img} alt="Image 3" />
-      <p className="legend">Legend 3</p>
-    </div>
+      <Stack className="legend" padding={10}>  <Text> {data[1].offer}</Text>
+    <Text>{data[1].description}</Text></Stack>    </div>
     <div class="card">
       <img src={data[2].img} alt="Image 4" />
-      <p className="legend">Legend 4</p>
-    </div>
+      <Stack className="legend" padding={10}>  <Text>{data[2].offer}</Text>
+    <Text>{data[2].description}</Text></Stack>    </div>
     
     <div class="card">
       <img src={data[3].img} alt="Image 6" />
-      <p className="legend">Legend 6</p>
-    </div>
+      <Stack className="legend" padding={10}>  <Text> {data[3].offer}</Text>
+    <Text>{data[3].description}</Text></Stack>    </div>
   
   </Carousel>
     </Box>

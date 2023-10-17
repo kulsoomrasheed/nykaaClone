@@ -28,16 +28,20 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Cards from './Card'; // Assuming this component exists and is used to render individual cards
 import { justDropped } from '../data/TopBrands';
+import Border from './Border';
 
 const JustDroppedProducts = () => {
   return (
     <Box width="96%" gap={2} margin="auto" marginTop={5} marginBottom={3} borderRadius={6}>
+          
         <Heading fontSize={'2xl'} textAlign={'left'} ml={6}>
 Hot List
 
-</Heading><Heading fontSize={'md'}  textAlign={'left'} ml={6}>Nykaa’s Super Sellers
+</Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
 
 </Heading>
+<Border />
+
       <Carousel
         showArrows={true}
         showThumbs={false} // Disable thumbnail previews if you don't need them
@@ -51,6 +55,8 @@ Hot List
           </div>
         ))}
       </Carousel>
+      <Border/>
+
     </Box>
   );
 };

@@ -30,7 +30,6 @@ Welcome to my Nykaa clone project! 👋 This MERN stack application is a testame
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
 3. Set up environment variables.
-4. Run the development server using `npm run dev`.
 
 ## 💡 Future Enhancements
 This project is always evolving. Future enhancements may include payment integration, additional features, and further optimization.
