@@ -71,6 +71,42 @@
   background-color: #fe2465;
   color: white;
 }
+
 .boxes:hover {
+  background-color: #535c67;
   color: #fe2465;
+}
+
+/* In your CSS file or a style block */
+@keyframes moveText {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+@keyframes glowText {
+  0% {
+    text-shadow: 0 0 5px #FF69B4, 0 0 10px #FF1493, 0 0 15px #FF6EB4;
+  }
+  50% {
+    text-shadow: 0 0 20px #FF69B4, 0 0 40px #FF1493, 0 0 60px #FF6EB4;
+  }
+  100% {
+    text-shadow: 0 0 5px #FF69B4, 0 0 10px #FF1493, 0 0 15px #FF6EB4;
+  }
+}
+
+
+@keyframes colorChange {
+  0% {
+    color: #FF69B4;
+  }
+  50% {
+    color: #FF1493;
+  }
+  100% {
+    color: #FF6EB4;
+  }
 }

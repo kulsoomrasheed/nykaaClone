@@ -13,11 +13,15 @@ import Sos from "../Components/Sos";
 import Spotliight from "../Components/Spotliight";
 import Radar from "../Components/Radar";
 import Footer from "../Components/Footer";
+import Border from "../Components/Border";
 
 const Home = () => {
   return (
     <Box  width={"100%"} margin={"auto"}>
+      <Border/>
       <Top />
+      <Border/>
+
       <Nav />
       <Image
         marginBottom={7}

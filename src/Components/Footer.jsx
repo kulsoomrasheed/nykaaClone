@@ -22,7 +22,7 @@ const Logo = (props) => {
     <Image 
     w={20}
     ml={20}
-      src="https://o.remove.bg/downloads/14f0b66e-1912-44c2-98d1-068d8ecf48fb/download-removebg-preview.png"
+      src="logo.png"
       alt="Logo"
       {...props}
     />
