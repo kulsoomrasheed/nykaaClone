@@ -143,16 +143,16 @@ Testimonials            </Box>
 Bath & Body            </Box>
             <Box className='boxes' as="a" href={'#'}>
 Hair            </Box>
-            <Box  as="a" href={'#'}>
+            <Box className='boxes' as="a" href={'#'}>
 Appliances            </Box>
-<Box as="a" href={'#'}>
+<Box className='boxes' as="a" href={'#'}>
             Mom & Baby
             </Box>
-            <Box as="a" href={'#'}>
+            <Box className='boxes' as="a" href={'#'}>
 Health & Wellness            </Box>
-            <Box as="a" href={'#'}>
+            <Box className='boxes' as="a" href={'#'}>
 Fragrances            </Box>
-            <Box as="a" href={'#'}>
+            <Box className='boxes' as="a" href={'#'}>
               Luxe
             </Box>
           </Stack>
