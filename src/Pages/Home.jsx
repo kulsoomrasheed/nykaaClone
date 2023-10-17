@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../Components/Nav";
-import { Box, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Modal } from "@chakra-ui/react";
 import Carousel from "../Components/Carousel";
 import Carousell from "../Components/Carousel";
 import Top from "../Components/Top";
@@ -15,6 +15,7 @@ import Radar from "../Components/Radar";
 import Footer from "../Components/Footer";
 import Border from "../Components/Border";
 import Discover from "../Components/discover";
+import Modall from "../Components/Modal";
 
 const Home = () => {
   return (
@@ -68,6 +69,7 @@ const Home = () => {
       <Image w={'94%'} margin={'50px auto'} src="https://images-static.nykaa.com/uploads/49e43a50-37b5-405a-be2d-ab90055115ec.jpg?tr=w-1200,cm-pad_resize"></Image>
       <Heading m={3} ml={4} textAlign={'left'} fontSize={'2xl'}>Nykaa - The Online Beauty Store</Heading>
       <Footer/>
+     
     </Box>
   );
 };

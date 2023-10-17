@@ -2,6 +2,7 @@ import { Box, Button, Flex, Image, Input, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {SearchIcon} from '@chakra-ui/icons'
+import Modall from './Modal'
 
 const Nav = () => {
   return (
@@ -17,7 +18,7 @@ const Nav = () => {
         <Text color={'gray.600'}><b>Beauty Advice</b></Text></Flex>
         <Flex><Input placeholder='Search On Nykaa' />
         <Button> <SearchIcon color={'#e80071'}/></Button></Flex>
-        <div> <Button bgColor={'#e80071'} color={'white'}>Sign in</Button></div>
+        <div> <Modall/></div>
        <div><img width={'30px'} src="https://cdn-icons-png.flaticon.com/512/879/879760.png" alt="" /></div>
 
 
