@@ -1,3 +1,37 @@
+export const category=[
+  {
+    "img": "https://images-static.nykaa.com/uploads/1216b52d-9ce4-4509-a477-d91befba4df1.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Makeup"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/8b0cbc2d-e429-4544-a497-649dc18dddda.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Skincare"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/8b9aee6b-eac3-4b75-9ca3-0b2db94604ea.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Hair"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/7d56864e-f60c-40f6-b774-b70f7023c709.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Bath & Body"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/a04697ab-5aa1-4d3d-9cde-da35baa244ca.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Fragrance"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/dad4155c-774c-4eed-835a-55a88f3b6676.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Luxe"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/bf3bc862-fcc6-49e9-a7c4-02fa5cfffa51.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Wellness"
+  },
+  {
+    "img": "https://images-static.nykaa.com/uploads/b4e1ca2f-f0d5-4c7d-b62c-d6ac47b2fa6d.jpg?tr=w-150,cm-pad_resize",
+    "offer": "Appliances"
+  }
+]
 export const topBrands=[
     {
         img:"https://images-static.nykaa.com/creatives/9188840e-a5da-4599-8d29-1c479bfa8c2f/default.jpg?tr=w-400,cm-pad_resize",
