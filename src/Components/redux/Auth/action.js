@@ -1,6 +1,9 @@
 import React from 'react'
 import axios from "axios";
 import { LOGIN_FAILED, LOGIN_PENDING, LOGIN_SUCCESS } from './actionTypes';
+import { Navigate, useNavigate } from 'react-router-dom';
+
+
 export const signup = (obj)=>(dispatch) => {
     dispatch({type:LOGIN_PENDING})
 axios.post("http://localhost:4000/api/register",obj).then((res)=>{
@@ -13,9 +16,10 @@ axios.post("http://localhost:4000/api/register",obj).then((res)=>{
 })
 }
 
+
 export const login = (obj)=>(dispatch) => {
     dispatch({type:LOGIN_PENDING})
-axios.post("http://localhost:4000/api/register",obj).then((res)=>{
+return axios.post("http://localhost:4000/api/login",obj).then((res)=>{
     dispatch({type:LOGIN_SUCCESS,payload:res.data.token})
     console.log(res.data);
     alert("Login successfully!")
