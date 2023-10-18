@@ -14,10 +14,22 @@ import Border from './Border'
 import Top from './Top'
 import Nav from './Nav'
 import Footer from './Footer'
-
+import {useDispatch} from "react-redux"
+import login, { signup } from './redux/Auth/action'
 const Signup = () => {
     const [email,setemail]= useState("")
     const [pass,setpass]= useState("")
+const dispatch=useDispatch()
+    const obj={
+      email,pass
+    }
+    const handleclick=()=>{
+      console.log(obj);
+      setemail("")
+      setpass("")
+      dispatch(signup(obj))
+     alert("Registered successfully!")
+    }
 
   return (
     <Box  width={"100%"} margin={"auto"}>
@@ -26,10 +38,10 @@ const Signup = () => {
         <Border/>
   
         <Nav />
-        <Stack borderRadius={6} h={'400'} minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+        <Stack borderRadius={6} h={'400'} minH={'95vh'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} margin={10} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={4} w={'full'} maxW={'md'}>
-          <Heading color={'#e80071'} fontSize={'2xl'}>Sign up to your account</Heading>
+          <Heading color={'#e80071'} margin={'auto'} mb={5} fontSize={'4xl'}>Sign up to your account</Heading>
           <FormControl id="email">
             <FormLabel>Email address</FormLabel>
             <Input type="email"  onChange={(e)=>setemail(e.target.value)} />
@@ -38,13 +50,13 @@ const Signup = () => {
             <FormLabel>Password</FormLabel>
             <Input type="password" onChange={(e)=>setpass(e.target.value)}/>
           </FormControl>
-          <Stack spacing={6}>
+          <Stack spacing={3}>
             <Stack
               direction={{ base: 'column', sm: 'row' }}
               align={'start'}
               justify={'space-between'}>
             </Stack>
-            <Button bgColor={'#e80071'} colorScheme={'pink'} variant={'solid'}>
+            <Button onClick={handleclick} bgColor={'#e80071'} colorScheme={'pink'} variant={'solid'}>
               Sign in
             </Button>
           </Stack>
