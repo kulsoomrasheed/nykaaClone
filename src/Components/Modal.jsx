@@ -12,20 +12,21 @@ import {
     Button,
     Portal,
   } from '@chakra-ui/react'
-export const Modall = () => {
+export const Modall = ({heading,label,btntext,text}) => {
   return (
-    <Popover>
+    <Popover >
   <PopoverTrigger>
-    <Button bgColor={'#e80071'} color={'white'}>Sign in</Button>
+    <Button fontSize={'sm'} bgColor={'#e80071'} color={'white'}>{text}</Button>
   </PopoverTrigger>
   <Portal>
     <PopoverContent textAlign={'center'}>
       <PopoverArrow />
-      <PopoverHeader ><b>Login / Create Account</b></PopoverHeader>
-      <p>Register now and get 2000 Nykaa reward points instantly!</p>
+      <PopoverHeader ><b>{heading}</b></PopoverHeader>
+      <p>{label}</p>
       <PopoverCloseButton />
       <PopoverBody>
-        <Button bgColor='#e80071' color={'white'}>Sign in with Email</Button>
+        <Button bgColor='#e80071' color={'white'}>{btntext}</Button>
+        
       </PopoverBody>
     </PopoverContent>
   </Portal>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Nav from "../Components/Nav";
 import { Box, Flex, Heading, Image, Modal } from "@chakra-ui/react";
 import Carousel from "../Components/Carousel";
@@ -16,8 +16,17 @@ import Footer from "../Components/Footer";
 import Border from "../Components/Border";
 import Discover from "../Components/discover";
 import Modall from "../Components/Modal";
+import axios from "axios";
 
 const Home = () => {
+  
+  useEffect(()=>{
+    axios.get("http://localhost:4000/").then((res)=>{
+    console.log(res.data);
+}).catch((err)=>{
+    console.log(err.message);
+})
+  },[])
   return (
     <Box  width={"100%"} margin={"auto"}>
       <Border/>
