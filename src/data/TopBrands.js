@@ -424,3 +424,24 @@ export const justDropped=[
     {img:"https://images-static.nykaa.com/uploads/f2ee4a23-fa89-4ac4-81cb-9c3b0d34824b.jpg?tr=w-600,cm-pad_resize"},
 
 ]
+
+export const lakmeCat=[
+  {img:"https://images-static.nykaa.com/uploads/f7e7bf26-c95a-44e8-8983-3c239a9e9358.jpg?tr=w-240,cm-pad_resize"},
+  {img:"https://images-static.nykaa.com/uploads/995d5502-7ec0-4f1b-b295-195d0d54ca5a.jpg?tr=w-240,cm-pad_resize"},
+  {img:"https://images-static.nykaa.com/uploads/5695c301-2486-45ec-a861-599b89d9bf2e.jpg?tr=w-240,cm-pad_resize"},
+  {img:"https://images-static.nykaa.com/uploads/6dce1f44-6023-445d-8764-c0e0de9c359d.jpg?tr=w-240,cm-pad_resize"},
+  {img:"https://images-static.nykaa.com/uploads/6c19503a-cbd8-4c80-82bb-6d3aa2b470b9.jpg?tr=w-240,cm-pad_resize"},
+  {img:"https://images-static.nykaa.com/uploads/dd16bd4c-04c4-4810-b023-12815dbcba13.jpg?tr=w-240,cm-pad_resize"},
+{img:"https://images-static.nykaa.com/uploads/b94483d1-d4ee-4021-95a8-7af37a7ed4a2.jpg?tr=w-240,cm-pad_resize"}
+]
+
+
+/*export const lakmelooks=[
+  {img:""},
+  {img:""},
+  {img:""},
+  {img:""},
+  {img:""},
+  {img:""},
+
+]*/

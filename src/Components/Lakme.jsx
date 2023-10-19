@@ -25,10 +25,10 @@ import { login } from "./redux/Auth/action";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Breadcrumbb from "./Breadcrumb";
-import { lakmeCar } from "../data/TopBrands";
+import { lakmeCar, lakmeCat } from "../data/TopBrands";
 import Customcrsl from "./CustomCrsl";
 
-const Signup = () => {
+const Lakme = () => {
   const navigate = useNavigate();
   const [email, setemail] = useState("");
   const [pass, setpass] = useState("");
@@ -62,6 +62,8 @@ const Signup = () => {
   <Breadcrumbb a={'Home'} b={'Brands'} c={'Lakme'} link1={"/"} link2={"/brands"} link3={"/lakme"} />
   <Box width={'100%'} margin={'auto'}>
     <Heading mb={5}>Best Lakme Products Online (315)</Heading>
+    <Customcrsl data={lakmeCar} num={'28'}/>
+
     <iframe
       style={{ display: 'block', margin: 'auto',borderRadius:9,boxShadow:6 }}
       width="1280"
@@ -74,11 +76,12 @@ const Signup = () => {
     ></iframe>
     
   </Box>
-  <Customcrsl data={lakmeCar}/>
 </Box>
+<Customcrsl data={lakmeCat} num={'15'}/>
+
       <Footer />
     </Box>
   );
 };
 
-export default Signup;
+export default Lakme;
