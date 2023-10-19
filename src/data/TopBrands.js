@@ -413,3 +413,14 @@ export const justDropped=[
       "description": "Complexion Stick"
     }
   ]
+  
+  export const lakmeCar=[
+    {img:"https://images-static.nykaa.com/uploads/da5789a8-100b-440a-8fde-93e20b1e0970.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/4811264e-3b2f-4346-9fb3-78848bd3e53d.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/f2ee4a23-fa89-4ac4-81cb-9c3b0d34824b.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/2b9cacca-0608-4d90-9060-0c40bd950f50.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/4811264e-3b2f-4346-9fb3-78848bd3e53d.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/2b9cacca-0608-4d90-9060-0c40bd950f50.jpg?tr=w-600,cm-pad_resize"},
+    {img:"https://images-static.nykaa.com/uploads/f2ee4a23-fa89-4ac4-81cb-9c3b0d34824b.jpg?tr=w-600,cm-pad_resize"},
+
+]
