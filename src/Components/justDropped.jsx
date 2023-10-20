@@ -34,7 +34,8 @@ const JustDroppedProducts = () => {
   return (
     <Box width="96%" gap={2} margin="auto" marginTop={5} marginBottom={3} borderRadius={6}>
           
-        <Heading fontSize={'2xl'} textAlign={'left'} ml={6}>
+        <Heading fontSize={'2xl'} mt={10} textAlign={'left'} ml={6} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
 Hot List
 
 </Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
@@ -44,7 +45,6 @@ Hot List
 <a href="/view">View All
 </a>
 </Heading>
-<Border />
 
       <Carousel
         showArrows={true}
@@ -52,6 +52,7 @@ Hot List
         dynamicHeight={false}
         centerMode={true}
         centerSlidePercentage={15}
+        
       >
         {justDropped.map((el, i) => (
           <div key={i}>
@@ -59,7 +60,6 @@ Hot List
           </div>
         ))}
       </Carousel>
-      <Border/>
 
     </Box>
   );

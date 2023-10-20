@@ -32,7 +32,8 @@ import { actualJustDropped } from '../data/TopBrands';
 const ActualJustDropped = () => {
   return (
     <Box width="96%" gap={2} margin="auto" marginTop={5} marginBottom={3} borderRadius={6}>
-        <Heading fontSize={'2xl'} textAlign={'left'} ml={6}>
+        <Heading fontSize={'2xl'} textAlign={'left'} ml={6} mt={10} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
 Hot List
 
 </Heading><Text  textAlign={'left'} ml={6}>Nykaa’s Super Sellers

@@ -18,29 +18,20 @@ import Cartalert from "./Cartalert"
     alignItems={'center'}
   >
         {data.map((el,i)=>{
-            return   <Box  justifyContent={'center'} maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden'>
+            return   <Box  justifyContent={'center'} maxW='sm' borderWidth='1px' gap={5} margin={1} borderRadius={10} overflow='hidden'> <Box display='flex' alignItems='baseline'>
+              
+             
+            </Box>
             <Badge borderRadius='full' px='2' colorScheme='pink'>
-                 {el.featured}
                </Badge>
+               
                <Badge borderRadius='full' px='2' colorScheme='teal'>
                  {el.best}
                </Badge>
            <Image width={'100%'} justifyContent={'center'} src={el.img}  />
      
            <Box p='6'>
-             <Box display='flex' alignItems='baseline'>
-              
-               <Box
-                 color='gray.500'
-                 fontWeight='semibold'
-                 letterSpacing='wide'
-                 fontSize='xs'
-                 textTransform='uppercase'
-                 ml='2'
-               >
-                  {el.shades} &bull;
-               </Box>
-             </Box>
+            
      
              <Box
                mt='1'
@@ -53,7 +44,7 @@ import Cartalert from "./Cartalert"
              </Box>
      
              <Box>
-             <Text textDecoration={"line-through"} >MRP:{el.mrp}</Text>  {el.price}
+             {el.price}
                <Box as='span' color='green.300' fontSize='sm'>
                  / {el.offer}
                </Box>
@@ -63,8 +54,11 @@ import Cartalert from "./Cartalert"
                
                <Box as='span' ml='2' color='gray.600' fontSize='sm'>
                  {el.qty }
+               </Box> 
+             </Box><Box as='span' ml='2' color='gray.600' fontSize='sm'>
+                 {el.shades }
                </Box>
-             </Box>
+             
             <Flex justifyContent={'center'}> <Button
              margin={1}
                 variant={"solid"}

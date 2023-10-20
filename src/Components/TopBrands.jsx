@@ -5,9 +5,17 @@ import TopBrandsCard from './TopBrandsCard'
 const TopBrands = () => {
   return (
     <div>
-        <Text fontSize={'2xl'} textAlign={'left'} ml={14}>Explore Our Top Brands
-</Text>
-<Grid width={'94%'} templateColumns='repeat(3, 1fr)' gap={2} margin={'auto'}>
+         <Heading textAlign={'left'} ml={12} mb={5} size={"lg"} mt={10}   bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
+        Explore Our Top Brands
+        </Heading>
+
+<Grid width={'94%'} 
+          templateColumns={{base : "repeat(1, 1fr)", md : "repeat(1, 1fr)", lg : "repeat(3, 1fr)"}}
+          gap={2} margin={'auto'}
+          height={'auto'}
+          alignContent={'center'}
+          >
     
         {topBrands.map((el,i)=>{
 return <TopBrandsCard {...el}/>

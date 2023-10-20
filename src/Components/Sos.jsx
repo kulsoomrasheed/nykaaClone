@@ -4,7 +4,8 @@ import React from 'react'
 const Sos = () => {
   return (
     <div style={{width:"94%",margin:'auto' , textAlign:"left"}}>
-    <Heading size={"lg"}  margin={3} mt={5} >Save On Sunscreens</Heading>
+    <Heading size={"lg"}  margin={3} mt={5} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">Save On Sunscreens</Heading>
     <Stack position="relative">
       <Image
         src="https://images-static.nykaa.com/uploads/10e573c1-d743-4b35-992b-88e73ec56603.jpg?tr=w-1200,cm-pad_resize"

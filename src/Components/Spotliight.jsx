@@ -50,7 +50,8 @@ const images = [
 const Spotliight = () => {
   return (
     <div style={{ width: "94%", margin: "auto", textAlign: "left" }}>
-      <Heading size={"md"} mt={5}>
+      <Heading size={"md"} mt={5} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
         In The Spotlight
       </Heading>
       <Text mb={2}>Self-Care Essentials</Text>

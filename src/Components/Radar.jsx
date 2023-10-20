@@ -22,7 +22,8 @@ import { useNavigate } from "react-router-dom";
     const navigate=useNavigate()
     return (
       <div style={{ width: "94%", margin: "auto", textAlign: "left" }}>
-        <Heading size={"md"} mt={5}>
+        <Heading size={"md"} mt={5} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
         On Our Radar
         </Heading>
         <Text mb={2}>Self-Care Essentials</Text>
