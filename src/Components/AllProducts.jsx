@@ -49,17 +49,7 @@ const AllProducts = () => {
     <Heading mb={5}>Best Lakme Products Online (315)</Heading>
     <Customcrsl data={lakmeCar} num={'28'}/>
 
-    <iframe
-      style={{ display: 'block', margin: 'auto',borderRadius:9,boxShadow:6 }}
-      width="1280"
-      height="720"
-      src="https://www.youtube.com/embed/qIJcl2go_S4?autoplay=1&loop=infinity"
-      title="Lakmé Blush and Glow Sheet Mask"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-    
+  
   </Box>
 </Box>
 <Customcrsl data={lakmeCat} num={'15'}/>
@@ -73,3 +63,14 @@ const AllProducts = () => {
 };
 
 export default AllProducts;
+/*  <iframe
+      style={{ display: 'block', margin: 'auto',borderRadius:9,boxShadow:6 }}
+      width="1280"
+      height="720"
+      src="https://www.youtube.com/embed/qIJcl2go_S4?autoplay=1&loop=infinity"
+      title="Lakmé Blush and Glow Sheet Mask"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    */

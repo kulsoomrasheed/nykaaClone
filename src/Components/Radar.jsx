@@ -29,13 +29,13 @@ import { useNavigate } from "react-router-dom";
    
         <Grid
           width={"100%"}
-          templateColumns="repeat(5, 1fr)"
+          templateColumns={{base : "repeat(1, 1fr)", md : "repeat(1, 1fr)", lg : "repeat(5, 1fr)"}}
           gap={1}
           margin={"auto"}
         >
           {radar.map((el, i) => {
             return (
-              <Card 
+              <Card  alignItems={'center'}       justifyContent={'center'}
               onClick={()=>navigate(el.link)}
 
               borderRadius={6}>

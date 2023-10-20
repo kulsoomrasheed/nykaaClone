@@ -69,13 +69,15 @@ const Spotliight = () => {
       </Stack>
       <Grid
         width={"100%"}
-        templateColumns="repeat(7, 1fr)"
+        templateColumns={{base : "repeat(1, 1fr)", md : "repeat(3, 1fr)", lg : "repeat(7, 1fr)"}}
         gap={2}
         margin={"auto"}
+        justifyContent={'center'}
       >
         {images.map((el, i) => {
           return (
-            <Card maxW="2xl" borderRadius={6}>
+            <Card maxW="2xl" borderRadius={6}  alignItems={'center'}       justifyContent={'center'}
+            >
               <CardBody>
                 <Image
                   src={el.img}

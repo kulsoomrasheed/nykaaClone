@@ -28,7 +28,7 @@ import { category, radar } from "../data/TopBrands";
         >
           {category.map((el, i) => {
             return (
-              <Card  borderRadius={6}>
+              <Card  borderRadius={6} alignItems={'center'}       justifyContent={'center'}>
                 <CardBody>
                   <Image
                     src={el.img}
