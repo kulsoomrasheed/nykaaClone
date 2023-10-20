@@ -10,6 +10,7 @@ import {
     Button,
     Input,
     Image,
+    Box,
   } from '@chakra-ui/react'
 import React from 'react'
 function Check() {
@@ -18,14 +19,12 @@ function Check() {
       
         return (
           <>
-            <Button ref={btnRef} onClick={onOpen}
+            <Box ref={btnRef} onClick={onOpen}
             margin={1}
-             bgColor={"#e80071"}
-             colorScheme={"pink"}
              variant={"solid"}
              padding={2}
              fontSize={'xs'}>
-<Image width={'30px'} src="https://cdn-icons-png.flaticon.com/512/879/879760.png" alt="" />            </Button>
+<Image width={'30px'} src="https://cdn-icons-png.flaticon.com/512/879/879760.png" alt="" />            </Box>
             <Drawer
               isOpen={isOpen}
               placement='right'
