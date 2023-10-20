@@ -12,12 +12,14 @@ import {
   } from "@chakra-ui/react";
   import React from "react";
 import { radar } from "../data/TopBrands";
+import { useNavigate } from "react-router-dom";
   
 
     
    
   
   const Radar = () => {
+    const navigate=useNavigate()
     return (
       <div style={{ width: "94%", margin: "auto", textAlign: "left" }}>
         <Heading size={"md"} mt={5}>
@@ -33,7 +35,10 @@ import { radar } from "../data/TopBrands";
         >
           {radar.map((el, i) => {
             return (
-              <Card  borderRadius={6}>
+              <Card 
+              onClick={()=>navigate(el.link)}
+
+              borderRadius={6}>
                 <CardBody>
                   <Image
                     src={el.img}

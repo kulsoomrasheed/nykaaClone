@@ -22,7 +22,7 @@ import { category, radar } from "../data/TopBrands";
       <div style={{ width: "94%", margin: "auto", textAlign: "left" }}>
         <Grid
           width={"100%"}
-          templateColumns="repeat(8, 1fr)"
+          templateColumns={{base : "repeat(3, 1fr)", md : "repeat(4, 1fr)", lg : "repeat(8, 1fr)"}}
          
           margin={"auto"}
         >

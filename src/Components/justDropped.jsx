@@ -40,6 +40,10 @@ Hot List
 </Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
 
 </Heading>
+<Heading  color={'pink.500'} fontSize={'2xl'} textAlign={'right'} mr={6}>
+<a href="/view">View All
+</a>
+</Heading>
 <Border />
 
       <Carousel

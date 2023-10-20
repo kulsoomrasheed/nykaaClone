@@ -3,6 +3,7 @@ import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import {SearchIcon} from '@chakra-ui/icons'
 import Modall from './Modal'
+import Check from './Check'
 
 const Nav = () => {
 
@@ -25,7 +26,7 @@ const Nav = () => {
         
         </div>
         <div><Button onClick={()=>navigate("/signup")} bgColor={'#e80071'} color={'white'} fontSize={'sm'}> Sign up</Button></div>
-       <div><img width={'30px'} src="https://cdn-icons-png.flaticon.com/512/879/879760.png" alt="" /></div>
+      <Check/>
     </Flex>
     </Box>
     

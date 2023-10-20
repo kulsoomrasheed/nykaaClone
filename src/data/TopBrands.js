@@ -273,7 +273,206 @@ export const justDropped=[
       "best": "",
       "shades": ""
     },
-    
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/8/18d33a4NYCETA0000010_1509231.jpg",
+      "name": "Cetaphil Gentle Skin Cleanser |Dry to Normal Skin with Niaci...",
+      "mrp": "₹333",
+      "price": "₹300",
+      "offer": "10% Off",
+      "qty": "( 86267 )",
+      "gift": "",
+      "shades": ""
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/4/5440bc8AQUAA00000021_1.jpg",
+      "name": "Aqualogica Glow + Dewy Sunscreen With Papaya & Vitamin C",
+      "mrp": "₹399",
+      "price": "₹355",
+      "offer": "11% Off",
+      "qty": "( 31488 )",
+      "gift": "Enjoy Free Gift",
+      "shades": "2 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/b/9b6fba927473_H-8901030883255.jpg",
+      "name": "Ponds Super Light Gel Oil Free Moisturiser With Hyaluronic A...",
+      "mrp": "₹440",
+      "price": "₹374",
+      "offer": "15% Off",
+      "qty": "( 123004 )",
+      "gift": "Extra 10% Off",
+      "shades": "3 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4f5a52cTHEDE00000076_1.jpg",
+      "name": "The Derma Co. 1% Hyaluronic Sunscreen Aqua Gel SPF 50",
+      "mrp": "₹499",
+      "price": "₹464",
+      "offer": "7% Off",
+      "qty": "( 23437 )",
+      "gift": "",
+      "shades": "2 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/2/a2055cd41554496918_1.jpg",
+      "name": "Maybelline New York Super Stay Matte Ink Liquid Lipstick",
+      "mrp": "₹699",
+      "price": "₹455",
+      "offer": "35% Off",
+      "qty": "( 74315 )",
+      "gift": "",
+      "shades": "20 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/0/0076e1eMAYBE00000020_1.jpg",
+      "name": "Maybelline New York Fit Me 12Hr Oil Control Compact",
+      "mrp": "₹259",
+      "price": "₹220",
+      "offer": "15% Off",
+      "qty": "( 66408 )",
+      "gift": "",
+      "shades": "6 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca24551_H_8901030758942.jpg",
+      "name": "Lakme Forever Matte Liquid Lip Color",
+      "mrp": "₹349",
+      "price": "₹314",
+      "offer": "10% Off",
+      "qty": "( 75522 )",
+      "gift": "",
+      "shades": "50 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/5/555cfc48904245705107_1.jpg",
+      "name": "Nykaa Cosmetics Matte To Last ! Liquid Lipstick",
+      "mrp": "₹675",
+      "price": "₹439",
+      "offer": "35% Off",
+      "qty": "( 46837 )",
+      "gift": "Enjoy Free Gift",
+      "shades": "24 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/4/c4b596e8901012185292_01U.jpg",
+      "name": "Neutrogena UltraSheer Dry Touch Sunblock SPF 50+",
+      "mrp": "",
+      "price": "₹260",
+      "offer": "",
+      "qty": "( 94203 )",
+      "gift": "",
+      "shades": "2 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/d/8d9e9d86902395722434_1.jpg",
+      "name": "Maybelline New York Fit Me Matte+Poreless Liquid Foundation ...",
+      "mrp": "₹325",
+      "price": "₹257",
+      "offer": "21% Off",
+      "qty": "( 75754 )",
+      "gift": "",
+      "shades": "6 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/5/f507df06923700970449_1.jpg",
+      "name": "L'Oreal Paris Extraordinary Oil Hair Serum, Anti-Frizz Serum...",
+      "mrp": "₹649",
+      "price": "₹552",
+      "offer": "15% Off",
+      "qty": "( 35663 )",
+      "gift": "",
+      "shades": "2 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/2/226647aTHECI00000030.jpg",
+      "name": "The Ordinary Glycolic Acid 7% Toning Solution",
+      "mrp": "",
+      "price": "₹1250",
+      "offer": "",
+      "qty": "( 10140 )",
+      "gift": "",
+      "shades": ""
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/c/bc1607aPLUMX00000068_1507231.jpg",
+      "name": "Plum 15% Vitamin C Face Serum with Mandarin for Glowing Skin...",
+      "mrp": "₹790",
+      "price": "₹672",
+      "offer": "15% Off",
+      "qty": "( 35516 )",
+      "gift": "",
+      "shades": "3 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/4/04a1af76902395487432_1.jpg",
+      "name": "Maybelline New York Instant Age Rewind Eraser Dark Circles T...",
+      "mrp": "₹729",
+      "price": "₹549",
+      "offer": "25% Off",
+      "qty": "( 43800 )",
+      "gift": "",
+      "shades": "9 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/8/18d33a4MINIM00000001_1509231.jpg",
+      "name": "Minimalist 10% Niacinamide Face Serum With Matmarine + Zinc ...",
+      "mrp": "",
+      "price": "₹599",
+      "offer": "",
+      "qty": "( 28171 )",
+      "gift": "",
+      "shades": ""
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/5/c52172a8904245704858_1.jpg",
+      "name": "Nykaa Naturals Skin Secrets Indian Rituals Sheet Mask",
+      "mrp": "₹100",
+      "price": "₹80",
+      "offer": "20% Off",
+      "qty": "( 41517 )",
+      "gift": "Or Buy 5 at MRP, Get 5 Free",
+      "shades": "11 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/8/18d33a4NYCETA0000007_1509231.jpg",
+      "name": "Cetaphil Moisturising Lotion For Dry To Normal Sensitive Ski...",
+      "mrp": "₹486",
+      "price": "₹437",
+      "offer": "10% Off",
+      "qty": "( 19440 )",
+      "gift": "",
+      "shades": "3 sizes"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca24859_H_8901030794773.jpg",
+      "name": "Lakme 9 To 5 Primer + Matte Lipstick",
+      "mrp": "₹550",
+      "price": "₹468",
+      "offer": "15% Off",
+      "qty": "( 35125 )",
+      "gift": "",
+      "shades": "35 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/6/e6d65cd41554453645_1.jpg",
+      "name": "Maybelline New York Color Sensational Creamy Matte Lipstick",
+      "mrp": "₹329",
+      "price": "₹263",
+      "offer": "20% Off",
+      "qty": "( 108900 )",
+      "gift": "",
+      "shades": "20 shades"
+    },
+    {
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4f5a52cTHEDE00000076_1.jpg",
+      "name": "The Derma Co 1% Hyaluronic Sunscreen Aqua Gel With Spf 50 Pa...",
+      "mrp": "₹499",
+      "price": "₹464",
+      "offer": "7% Off",
+      "qty": "( 23437 )",
+      "gift": "",
+      "shades": ""
+    }
   ]
 
 
@@ -380,7 +579,8 @@ export const justDropped=[
     {
       "img": "https://images-static.nykaa.com/creatives/ab3586a7-b4d0-4f00-b63f-1ccbebfc259e/default.jpg?tr=w-240,cm-pad_resize",
       "offer": "Upto 30% Off",
-      "description": "On Entire Range"
+      "description": "On Entire Range",
+      'link':"/nykaaNaturals"
     },
     {
       "img": "https://images-static.nykaa.com/creatives/49e5af2e-62a0-4078-873c-6e1cfa1fd4a8/default.jpg?tr=w-240,cm-pad_resize",
@@ -445,3 +645,680 @@ export const lakmeCat=[
   {img:""},
 
 ]*/
+
+export const lakme=[
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d846d129657_H-8901030973727.jpg",
+      "name": "Lakme Glitterati Collection Shine Eyeliner",
+      "mrp": "₹550",
+      "price": "₹495",
+      "offer": "10% Off",
+      "shades": "5 shades",
+      "qty": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abffdf38901030968716_1.jpg",
+      "name": "Lakme Absolute Explore Eye Paint",
+      "mrp": "₹550",
+      "price": "₹523",
+      "offer": "5% Off",
+      "shades": "7 shades",
+      "qty": "( 1 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca22769_H_8901030366086.jpg",
+      "name": "Lakme Absolute Skin Natural Mousse Mattreal Foundation",
+      "mrp": "₹875",
+      "price": "₹656",
+      "offer": "25% Off",
+      "shades": "6 shades",
+      "qty": "( 32316 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d846d129671_H-8901030974182.jpg",
+      "name": "Lakme Glitterati Collection Shine Lipstick",
+      "mrp": "₹650",
+      "price": "₹585",
+      "offer": "10% Off",
+      "shades": "10 shades",
+      "qty": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4ed626LAKME00000467.jpg",
+      "name": "Lakme Eyeconic Power Pack Combo",
+      "mrp": "₹1139",
+      "price": "₹968",
+      "offer": "15% Off",
+      "shades": "",
+      "qty": "( 29618 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/b/abffdf38901030971099_1.jpg",
+      "name": "Lakme Absolute Luminous Skin Tint Foundation",
+      "mrp": "₹875",
+      "price": "₹788",
+      "offer": "10% Off",
+      "shades": "6 shades",
+      "qty": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/0/203fa44LAKME00000889.jpg",
+      "name": "Lakme Eyeconic Kajal",
+      "mrp": "₹275",
+      "price": "₹228",
+      "offer": "17% Off",
+      "shades": "9 shades",
+      "qty": "( 30740 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca24452_H_8901030742446.jpg",
+      "name": "Lakme 9 To 5 Primer + Matte Perfect Cover Foundation",
+      "mrp": "₹525",
+      "price": "₹404",
+      "offer": "23% Off",
+      "shades": "20 shades",
+      "qty": "( 29135 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca23657_H_8901030824999.jpg",
+      "name": "Lakme Absolute Primer",
+      "mrp": "₹825",
+      "price": "₹701",
+      "offer": "15% Off",
+      "shades": "3 shades",
+      "qty": "( 394 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/d/9d846d129680_H-8901030975004.jpg",
+      "name": "Lakme Glitterati Collection Nail Polish",
+      "mrp": "₹225",
+      "price": "₹203",
+      "offer": "10% Off",
+      "shades": "12 shades",
+      "qty": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/4/44ee98f29405_H-8901030919237.jpg",
+      "name": "Lakme Absolute Explore Eye Shadow Palette",
+      "mrp": "₹995",
+      "price": "₹796",
+      "offer": "20% Off",
+      "shades": "2 shades",
+      "qty": "( 55 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/3/d3e3c4fLAKME00000476_1.jpg",
+      "name": "Lakme Primer + Matte Face Base Medium Combo",
+      "mrp": "₹1575",
+      "price": "₹1103",
+      "offer": "30% Off",
+      "shades": "",
+      "qty": "( 26052 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca24859_H_8901030794773.jpg",
+      "name": "Lakme 9 To 5 Primer + Matte Lipstick",
+      "mrp": "₹550",
+      "price": "₹468",
+      "offer": "15% Off",
+      "shades": "35 shades",
+      "qty": "( 35067 )"
+    },
+    {
+      "featured": "",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2807eca24551_H_8901030758942.jpg",
+      "name": "Lakme Forever Matte Liquid Lip Color",
+      "mrp": "₹349",
+      "price": "₹314",
+      "offer": "10% Off",
+      "shades": "50 shades",
+      "qty": "( 75428 )"
+    },
+    {
+      "featured": "",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/9/994f68922998_S1_8901030863127.jpg",
+      "name": "Lakme Complexion Care Face CC Cream",
+      "mrp": "₹360",
+      "price": "₹324",
+      "offer": "10% Off",
+      "shades": "6 shades",
+      "qty": "( 44272 )"
+    },
+    {
+      "featured": "",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/7/17def8f27512_H-8901030978975.jpg",
+      "name": "Lakme Lumi Skin Cream",
+      "mrp": "₹299",
+      "price": "₹269",
+      "offer": "10% Off",
+      "shades": "2 sizes",
+      "qty": "( 27310 )"
+    },
+
+  ]
+
+  export const sidebar=[
+    {
+      "title": "Price"
+    },
+    {
+      "title": "Category"
+    },
+    {
+      "title": "Discount"
+    },
+    {
+      "title": "Color"
+    },
+    {
+      "title": "Skin type"
+    },
+    {
+      "title": "Concern"
+    },
+    {
+      "title": "Formulation"
+    },
+    {
+      "title": "Finish"
+    },
+    {
+      "title": "Avg Customer Rating"
+    },
+    {
+      "title": "Country Of Origin"
+    },
+    {
+      "title": "Gender"
+    },
+    {
+      "title": "Preference"
+    },
+    {
+      "title": "Coverage"
+    },
+    {
+      "title": "Benefits"
+    },
+    {
+      "title": "SPF"
+    },
+    {
+      "title": "Skin tone"
+    }
+  ]
+
+  export const nykaaNaturals=[
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/b/5b7a2eb890424570485_1.jpg",
+      "name": "Nykaa Naturals Skin Secrets Bestseller Sheet Mask - Monthly ...",
+      "mrp": "₹500",
+      "price": "₹350",
+      "offer": "30% Off",
+      "qty": "( 335 )",
+      "gift": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/4/a447697NYKAB00000568-New1.jpg",
+      "name": "Nykaa Naturals Fermented Rice Water & Bamboo Shampoo & Condi...",
+      "mrp": "₹798",
+      "price": "₹662",
+      "offer": "17% Off",
+      "qty": "( 1546 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/f/0ffc7cb8904245710460_1.jpg",
+      "name": "Nykaa Clay It Cool Perfect Glow Clay Mask",
+      "mrp": "₹599",
+      "price": "₹569",
+      "offer": "5% Off",
+      "qty": "( 13686 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/a/5a7f88bNYKAB00000248_1k.jpg",
+      "name": "Nykaa Scalp Massager Brush For Blood Circulation & Natural H...",
+      "mrp": "",
+      "price": "₹499",
+      "offer": "",
+      "qty": "( 2220 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/e/ee7372bNYKAB00000327_1.jpg",
+      "name": "Nykaa Skin Secrets Gold Sheet Mask + Nykaa Skin Potion 24k G...",
+      "mrp": "₹1099",
+      "price": "₹912",
+      "offer": "17% Off",
+      "qty": "( 62 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dc6ec738904245714659_1.jpg",
+      "name": "Nykaa Naturals Microfiber Hair Wrap for Frizz Free & Shiny H...",
+      "mrp": "₹499",
+      "price": "₹474",
+      "offer": "5% Off",
+      "qty": "( 4776 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Naturals Hair Growth Combo",
+      "mrp": "₹798",
+      "price": "₹742",
+      "offer": "7% Off",
+      "qty": "( 2958 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Tea Tree & Salicylic Acid Spot Patch for Pimple Care -...",
+      "mrp": "₹500",
+      "price": "₹475",
+      "offer": "5% Off",
+      "qty": "( 18459 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "",
+      "name": "Nykaa Naturals Festive Glow Sheet Mask Combo - Pack Of 3",
+      "mrp": "₹300",
+      "price": "₹225",
+      "offer": "25% Off",
+      "qty": "( 41525 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Naturals Rosemary Essential Oil for Hair Growth and Sc...",
+      "mrp": "",
+      "price": "₹350",
+      "offer": "",
+      "qty": "( 149 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Nykaa Naturals Saffron & Honey Face Wash for Glowing Skin",
+      "mrp": "₹139",
+      "price": "₹90",
+      "offer": "35% Off",
+      "qty": "( 41149 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "",
+      "name": "Nykaa Naturals Sheet Mask Combo For Deep Hydration - Pack Of...",
+      "mrp": "₹300",
+      "price": "₹225",
+      "offer": "25% Off",
+      "qty": "( 200178 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Naturals Saffron & Honey Face Scrub for Glowing Skin",
+      "mrp": "₹249",
+      "price": "₹199",
+      "offer": "20% Off",
+      "qty": "( 7649 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Face Massage Rollers - Rose Quartz",
+      "mrp": "₹1999",
+      "price": "₹1699",
+      "offer": "15% Off",
+      "qty": "( 1452 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "",
+      "name": "Nykaa Naturals Anti-ageing Sheet Mask Combo - Pack Of 3",
+      "mrp": "₹300",
+      "price": "₹225",
+      "offer": "25% Off",
+      "qty": "( 200182 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "",
+      "name": "Nykaa Naturals Pre-makeup Skincare Sheet Mask Combo - Pack O...",
+      "mrp": "₹300",
+      "price": "₹225",
+      "offer": "25% Off",
+      "qty": "( 15728 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Naturals Gua Sha Stone - Rose Quartz",
+      "mrp": "₹1999",
+      "price": "₹1299",
+      "offer": "35% Off",
+      "qty": "( 991 )",
+      "gift": "Enjoy Free Gift"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Nykaa Skin Secrets Charcoal Bubble Sheet Mask",
+      "mrp": "₹199",
+      "price": "₹159",
+      "offer": "20% Off",
+      "qty": "( 1446 )",
+      "gift": "Or Buy 1 at MRP, Get 1 Free"
+    },
+    {
+      "featured": "",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Nykaa Naturals Skin Secrets Exotic Indulgence Sheet Mask",
+      "mrp": "₹100",
+      "price": "₹80",
+      "offer": "20% Off",
+      "qty": "( 200160 )",
+      "gift": "Or Buy 5 at MRP, Get 5 Free"
+    },
+    {
+      "featured": "",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Nykaa Naturals Skin Secrets Indian Rituals Sheet Mask",
+      "mrp": "₹100",
+      "price": "₹80",
+      "offer": "20% Off",
+      "qty": "( 41471 )",
+      "gift": "Or Buy 5 at MRP, Get 5 Free"
+    }
+  ]
+
+  export const kaybeauty=[
+    {
+      "featured": "FEATURED",
+      "best": "NEW",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/f/ff2ddffKAYBE00000225_1.jpg",
+      "name": "Kay Beauty Lip Tint",
+      "mrp": "₹899",
+      "price": "₹809",
+      "offer": "10% Off",
+      "shades": "8 shades",
+      "qty": ""
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/4/c4da1f6KAYBE00000049_01.jpg",
+      "name": "Kay Beauty Gel Eye Pencil",
+      "mrp": "₹625",
+      "price": "₹375",
+      "offer": "40% Off",
+      "shades": "7 shades",
+      "qty": "( 3583 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/4/c4da1f6KAYBE00000054_01.jpg",
+      "name": "Kay Beauty Creme Blush",
+      "mrp": "₹799",
+      "price": "₹519",
+      "offer": "35% Off",
+      "shades": "5 shades",
+      "qty": "( 7562 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/x/exotic-indigo_1.jpg",
+      "name": "Kay Beauty Quick Dry Liquid Eyeliner",
+      "mrp": "₹599",
+      "price": "₹359",
+      "offer": "40% Off",
+      "shades": "8 shades",
+      "qty": "( 13324 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/1/81671cf8904330902510_1.jpg",
+      "name": "Kay Beauty Hydrating Foundation",
+      "mrp": "₹1200",
+      "price": "₹720",
+      "offer": "40% Off",
+      "shades": "17 shades",
+      "qty": "( 8478 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904330901445_1.jpg",
+      "name": "Kay Beauty Matte Drama Long Stay Lipstick",
+      "mrp": "₹999",
+      "price": "₹599",
+      "offer": "40% Off",
+      "shades": "23 shades",
+      "qty": "( 5772 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Kay Beauty Kohlstar 24 Hour Kajal - Spade",
+      "mrp": "₹299",
+      "price": "₹179",
+      "offer": "40% Off",
+      "shades": "",
+      "qty": "( 862 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Hydrating Lip Oil Gloss (Hydrate & Treat)",
+      "mrp": "",
+      "price": "₹899",
+      "offer": "",
+      "shades": "",
+      "qty": "( 122 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Kay Beauty Matte Liquid Lipstick",
+      "mrp": "",
+      "price": "₹1200",
+      "offer": "",
+      "shades": "12 shades",
+      "qty": "( 596 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Eyeshadow Palette - Carefree",
+      "mrp": "₹1199",
+      "price": "₹719",
+      "offer": "40% Off",
+      "shades": "5 shades",
+      "qty": "( 3397 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "BESTSELLER",
+      "img": "",
+      "name": "Kay Beauty Matteinee Matte Lip Crayon Lipstick",
+      "mrp": "₹849",
+      "price": "₹509",
+      "offer": "40% Off",
+      "shades": "14 shades",
+      "qty": "( 15123 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Hd Liquid Concealer",
+      "mrp": "₹849",
+      "price": "₹509",
+      "offer": "40% Off",
+      "shades": "9 shades",
+      "qty": "( 2991 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Matte Blush",
+      "mrp": "₹899",
+      "price": "₹539",
+      "offer": "40% Off",
+      "shades": "8 shades",
+      "qty": "( 6565 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Illuminating Highlighter",
+      "mrp": "₹899",
+      "price": "₹629",
+      "offer": "30% Off",
+      "shades": "6 shades",
+      "qty": "( 4170 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Nail Nourish Nail Enamel Polish",
+      "mrp": "₹259",
+      "price": "₹155",
+      "offer": "40% Off",
+      "shades": "36 shades",
+      "qty": "( 24533 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Contour Stick",
+      "mrp": "₹725",
+      "price": "₹435",
+      "offer": "40% Off",
+      "shades": "3 shades",
+      "qty": "( 7484 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Matte Action Lip Liner",
+      "mrp": "₹599",
+      "price": "₹359",
+      "offer": "40% Off",
+      "shades": "7 shades",
+      "qty": "( 6945 )"
+    },
+    {
+      "featured": "FEATURED",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Metallic Eyeshadow Stick Pencil",
+      "mrp": "₹749",
+      "price": "₹524",
+      "offer": "30% Off",
+      "shades": "12 shades",
+      "qty": "( 8240 )"
+    },
+    {
+      "featured": "",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Matte HD Setting Loose Powder",
+      "mrp": "₹799",
+      "price": "₹519",
+      "offer": "35% Off",
+      "shades": "8 shades",
+      "qty": "( 7630 )"
+    },
+    {
+      "featured": "",
+      "best": "",
+      "img": "",
+      "name": "Kay Beauty Matte Compact",
+      "mrp": "₹849",
+      "price": "₹594",
+      "offer": "30% Off",
+      "shades": "10 shades",
+      "qty": "( 5149 )"
+    }
+  ]

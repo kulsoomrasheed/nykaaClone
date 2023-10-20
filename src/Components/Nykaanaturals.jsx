@@ -1,3 +1,4 @@
+
 "use client";
 import {
   Box,
@@ -25,33 +26,14 @@ import { login } from "./redux/Auth/action";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Breadcrumbb from "./Breadcrumb";
-import { lakme, lakmeCar, lakmeCat } from "../data/TopBrands";
+import { lakmeCar, lakmeCat, nykaaNaturals } from "../data/TopBrands";
 import Customcrsl from "./CustomCrsl";
 import Products from "./Products";
 import Sidebar from "./Sidebar";
 
-const Lakme = () => {
+const NykaaNaturals = () => {
   const navigate = useNavigate();
-  const [email, setemail] = useState("");
-  const [pass, setpass] = useState("");
-
-  const dispatch = useDispatch();
-  const obj = {
-    email,
-    pass,
-  };
-  const handleclick = () => {
-    console.log(obj);
-    dispatch(login(obj))
-      .then((res) => {
-        setemail("");
-        setpass("");
-        navigate("/");
-      })
-      .catch((err) => {
-        alert("Login again");
-      });
-  };
+ 
 
   return (
     <Box width={"100%"} margin={"auto"}>
@@ -80,13 +62,13 @@ const Lakme = () => {
   </Box>
 </Box>
 <Customcrsl data={lakmeCat} num={'15'}/>
-<Flex  alignContent={"flex-start"}  w={'80%'} margin={'auto'}>
+<Flex w={'80%'} margin={'auto'}>
   <Sidebar/>
-<Products data={lakme}/>
+<Products/>
 </Flex>
       <Footer />
     </Box>
   );
 };
 
-export default Lakme;
+export default NykaaNaturals;

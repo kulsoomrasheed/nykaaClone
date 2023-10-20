@@ -15,6 +15,7 @@ import {
     BreadcrumbItem,
     BreadcrumbLink,
     BreadcrumbSeparator,
+    HStack,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Border from "./Border";
@@ -25,33 +26,15 @@ import { login } from "./redux/Auth/action";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Breadcrumbb from "./Breadcrumb";
-import { lakme, lakmeCar, lakmeCat } from "../data/TopBrands";
+import { justDropped, lakmeCar, lakmeCat } from "../data/TopBrands";
 import Customcrsl from "./CustomCrsl";
 import Products from "./Products";
 import Sidebar from "./Sidebar";
+import Check from "./Check";
+import Cartalert from "./Cartalert";
 
-const Lakme = () => {
-  const navigate = useNavigate();
-  const [email, setemail] = useState("");
-  const [pass, setpass] = useState("");
-
-  const dispatch = useDispatch();
-  const obj = {
-    email,
-    pass,
-  };
-  const handleclick = () => {
-    console.log(obj);
-    dispatch(login(obj))
-      .then((res) => {
-        setemail("");
-        setpass("");
-        navigate("/");
-      })
-      .catch((err) => {
-        alert("Login again");
-      });
-  };
+const AllProducts = () => {
+ 
 
   return (
     <Box width={"100%"} margin={"auto"}>
@@ -80,13 +63,13 @@ const Lakme = () => {
   </Box>
 </Box>
 <Customcrsl data={lakmeCat} num={'15'}/>
-<Flex  alignContent={"flex-start"}  w={'80%'} margin={'auto'}>
+<Box display={'flex'} border = "2px solid red" w={'80%'} marginX={'auto'}>
   <Sidebar/>
-<Products data={lakme}/>
-</Flex>
+<Products data={justDropped}/>
+</Box>
       <Footer />
     </Box>
   );
 };
 
-export default Lakme;
+export default AllProducts;

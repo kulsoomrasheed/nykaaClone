@@ -21,14 +21,14 @@ const Carousell = ({data}) => {
   <Stack className="legend" padding={10} fontSize={'lg'}>  <Text>{data[0].offer}</Text>
     <Text>{data[0].description}</Text></Stack>
   
-</div><div class="card">
-  <img src={data[5].img} alt="Image 5" />
+</div><div  class="card">
+ <a href="/lakme"><img  src={data[5].img} alt="Image 5" /></a> 
   <Stack className="legend" padding={10}>  <Text>{data[5].offer}</Text>
     <Text>{data[5].description}</Text></Stack></div>
     <div class="card">
       <img src={data[4].img} alt="Image 1" />
       <Stack className="legend" padding={10}>  <Text>{data[4].offer}</Text>
-    <Text>{data[4].description}</Text></Stack>
+    <Text >{data[4].description}</Text></Stack>
       </div>
     <div class="card" >
       <img src={data[6].img} alt="Image 2" />

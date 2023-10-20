@@ -7,6 +7,8 @@ import Login from '../Components/Login';
 import NotFound from '../Components/NotFound';
 import Signup from '../Components/Signup';
 import Lakme from '../Components/Lakme';
+import NykaaNaturals from '../Components/Nykaanaturals';
+import AllProducts from '../Components/AllProducts';
 const Mainroutes = () => {
   return (
     <Routes>
@@ -14,6 +16,9 @@ const Mainroutes = () => {
         <Route path='/categories' element={<Categories/>}/>
         <Route path='/brands' element={<Brands/>}/>
         <Route path='login/' element={<Login/>}/>
+        <Route path='nykaaNaturals' element={<NykaaNaturals/>}/>
+        <Route path='/view' element={<AllProducts/>}/>
+
         <Route path='signup/' element={<Signup/>}/>
         <Route path='lakme/' element={<Lakme/>}/>
 
