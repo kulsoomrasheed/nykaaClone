@@ -63,6 +63,10 @@ import Cards from "./Card";
     </Box>  
 })}        
       </Swiper>
+      <Heading  color={'pink.500'} fontSize={'2xl'} textAlign={'right'} mr={6}>
+<a href="/view">View All
+</a>
+</Heading>
     </Box>
   );
 }
