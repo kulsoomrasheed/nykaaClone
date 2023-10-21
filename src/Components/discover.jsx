@@ -23,8 +23,8 @@ import { category, radar } from "../data/TopBrands";
         <Grid
           width={"100%"}
           templateColumns={{base : "repeat(3, 1fr)", md : "repeat(4, 1fr)", lg : "repeat(8, 1fr)"}}
-         
-          margin={"auto"}
+         gap={2}
+          margin={"auto"} marginTop={4}
         >
           {category.map((el, i) => {
             return (
