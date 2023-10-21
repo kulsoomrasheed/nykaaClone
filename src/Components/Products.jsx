@@ -10,7 +10,7 @@ import Cartalert from "./Cartalert"
     return (
     <Grid
     width={"65%"}
-    templateColumns={{base : "repeat(2, 1fr)", md : "repeat(2, 1fr)", lg : "repeat(3, 1fr)"}}
+    templateColumns={{base : "repeat(1, 1fr)", md : "repeat(1, 1fr)", lg : "repeat(3, 1fr)"}}
     gap={2}
     margin={"auto"}
     justifyContent={'center'}
