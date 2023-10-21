@@ -20,6 +20,8 @@ import axios from "axios";
 import CaptionCarousel from "../Components/Check";
 import Check from "../Components/Check";
 import SwiperCarousal from "../Components/SwiperCarousal";
+import NavMenu from "../Components/HbMenu";
+import Navbar from "../Components/Navbar";
 const data=[
   {
     "img": "https://images-static.nykaa.com/creatives/90b13d57-9dc2-4180-87e7-08a77b94208c/default.jpg?tr=w-400,cm-pad_resize",
@@ -74,6 +76,7 @@ const Home = () => {
       <Border/>
 
       <Nav />
+      <Navbar/>
       <Image
         marginBottom={7}
         width={"100%"}

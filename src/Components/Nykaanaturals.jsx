@@ -32,6 +32,7 @@ import Products from "./Products";
 import Sidebar from "./Sidebar";
 import Check from "./Check";
 import Cartalert from "./Cartalert";
+import Navbar from "./Navbar";
 
 const AllProducts = () => {
  
@@ -43,6 +44,8 @@ const AllProducts = () => {
       <Border />
 
       <Nav />
+      <Navbar/>
+
       <Image
        
         width={"100%"}

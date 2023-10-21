@@ -5,6 +5,7 @@ import Top from '../Components/Top'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Discover from '../Components/discover'
+import Navbar from '../Components/Navbar'
 const Categories = () => {
   return (
     <Box  width={"100%"} margin={"auto"}>
@@ -13,6 +14,8 @@ const Categories = () => {
       <Border/>
 
       <Nav />
+      <Navbar/>
+
       <Image
         marginBottom={7}
         width={"100%"}

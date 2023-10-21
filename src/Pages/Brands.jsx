@@ -5,6 +5,7 @@ import Top from '../Components/Top'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Radar from '../Components/Radar'
+import Navbar from '../Components/Navbar'
 const Brands = () => {
   return (
     <Box  width={"100%"} margin={"auto"}>
@@ -13,6 +14,8 @@ const Brands = () => {
       <Border/>
 
       <Nav />
+      <Navbar/>
+
       <Radar/>
 
       <Footer/>

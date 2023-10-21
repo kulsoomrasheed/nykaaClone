@@ -32,6 +32,7 @@ import Products from "./Products";
 import Sidebar from "./Sidebar";
 import Check from "./Check";
 import Cartalert from "./Cartalert";
+import Navbar from "./Navbar";
 
 const AllProducts = () => {
  
@@ -43,6 +44,8 @@ const AllProducts = () => {
       <Border />
 
       <Nav />
+      <Navbar/>
+
       <Image
         width={"100%"}
         src="https://images-static.nykaa.com/uploads/cee1e080-f836-497a-a7e0-a8dbface08fc.jpg?tr=w-1200,cm-pad_resize"
