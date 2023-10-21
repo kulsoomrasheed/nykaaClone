@@ -37,12 +37,16 @@ const AllProducts = () => {
  
 
   return (
-    <Box width={"100%"} margin={"auto"}>
+    <Box  width={"100%"} margin={"auto"}>
       <Border />
       <Top />
       <Border />
 
       <Nav />
+      <Image
+        width={"100%"}
+        src="https://images-static.nykaa.com/uploads/cee1e080-f836-497a-a7e0-a8dbface08fc.jpg?tr=w-1200,cm-pad_resize"
+      ></Image>
       <Box bgColor={'rgb(243, 243, 243)'} margin={'auto'} width="100%">
   <Breadcrumbb a={'Home'} b={'Brands'} c={'Lakme'} link1={"/"} link2={"/brands"} link3={"/lakme"} />
   <Box width={'100%'} margin={'auto'}>
@@ -53,9 +57,15 @@ const AllProducts = () => {
   </Box>
 </Box>
 <Customcrsl data={lakmeCat} num={'15'}/>
-<Box display={'flex'} border = "2px solid red" w={'80%'} marginX={'auto'}>
+<Box bgColor={'rgb(243, 243, 243)'}>
+<Heading fontSize={'4xl'}  textAlign={'center'}  bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text" margin={5} mt={5}>
+All Products (5465)
+</Heading>
+<Box bgColor={'white'} display={'flex'}  w={'80%'} marginX={'auto'}>
   <Sidebar/>
 <Products data={justDropped}/>
+</Box>
 </Box>
       <Footer />
     </Box>

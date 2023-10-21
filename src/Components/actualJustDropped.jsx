@@ -35,6 +35,13 @@ import Cards from "./Card";
     <Box 
     width={"97%"}
     margin={5}>
+      <Heading fontSize={'2xl'} mt={10} textAlign={'left'} ml={6} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
+Hot List
+
+</Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
+
+</Heading>
     <Swiper
     
   spaceBetween={20}
@@ -64,7 +71,7 @@ import Cards from "./Card";
 })}        
       </Swiper>
       <Heading  color={'pink.500'} fontSize={'2xl'} textAlign={'right'} mr={6}>
-<a href="/view">View All
+<a href="/nykaaNaturals">View All
 </a>
 </Heading>
     </Box>

@@ -1,4 +1,3 @@
-
 "use client";
 import {
   Box,
@@ -16,6 +15,7 @@ import {
     BreadcrumbItem,
     BreadcrumbLink,
     BreadcrumbSeparator,
+    HStack,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Border from "./Border";
@@ -26,29 +26,55 @@ import { login } from "./redux/Auth/action";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Breadcrumbb from "./Breadcrumb";
-import { lakmeCar, lakmeCat, nykaaNaturals } from "../data/TopBrands";
+import { justDropped, lakmeCar, lakmeCat, nykaaNaturals, radar, topBrands } from "../data/TopBrands";
 import Customcrsl from "./CustomCrsl";
 import Products from "./Products";
 import Sidebar from "./Sidebar";
+import Check from "./Check";
+import Cartalert from "./Cartalert";
 
-const NykaaNaturals = () => {
-  const navigate = useNavigate();
+const AllProducts = () => {
  
 
   return (
-    <Box width={"100%"} margin={"auto"}>
+    <Box   width={"100%"} margin={"auto"}>
       <Border />
       <Top />
       <Border />
 
       <Nav />
-      <Box bgColor={'rgb(243, 243, 243)'} margin={'auto'} width="100%">
+      <Image
+       
+        width={"100%"}
+        src="https://images-static.nykaa.com/uploads/cee1e080-f836-497a-a7e0-a8dbface08fc.jpg?tr=w-1200,cm-pad_resize"
+      ></Image>
+      <Box bgColor={'rgb(243, 243, 243)'} margin={'auto'} width="100%" padding={5}>
   <Breadcrumbb a={'Home'} b={'Brands'} c={'Lakme'} link1={"/"} link2={"/brands"} link3={"/lakme"} />
   <Box width={'100%'} margin={'auto'}>
     <Heading mb={5}>Best Lakme Products Online (315)</Heading>
-    <Customcrsl data={lakmeCar} num={'28'}/>
+    <Customcrsl data={topBrands} num={'28'}/>
 
-    <iframe
+  
+  </Box>
+</Box>
+<Customcrsl data={radar} num={'15'}/>
+<Box bgColor={'rgb(243, 243, 243)'}>
+<Heading fontSize={'4xl'}  textAlign={'center'}  bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text" margin={5} mt={5}>
+All Products (5465)
+</Heading>
+<Box bgColor={'white'} display={'flex'}  w={'80%'} marginX={'auto'}>
+  <Sidebar/>
+<Products data={nykaaNaturals}/>
+</Box>
+</Box>
+      <Footer />
+    </Box>
+  );
+};
+
+export default AllProducts;
+/*  <iframe
       style={{ display: 'block', margin: 'auto',borderRadius:9,boxShadow:6 }}
       width="1280"
       height="720"
@@ -58,17 +84,4 @@ const NykaaNaturals = () => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
     ></iframe>
-    
-  </Box>
-</Box>
-<Customcrsl data={lakmeCat} num={'15'}/>
-<Flex w={'80%'} margin={'auto'}>
-  <Sidebar/>
-<Products/>
-</Flex>
-      <Footer />
-    </Box>
-  );
-};
-
-export default NykaaNaturals;
+    */

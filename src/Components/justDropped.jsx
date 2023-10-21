@@ -105,7 +105,12 @@ import Cards from "./Card";
     <Box 
     width={"97%"}
     margin={5}>
+ <Heading fontSize={'2xl'} mt={10} textAlign={'left'} ml={6} bgGradient="linear(to-r, red.400, purple.600)"
+        backgroundClip="text">
+Just Dropped
+</Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
 
+</Heading>
     <Swiper
     
   spaceBetween={20}
