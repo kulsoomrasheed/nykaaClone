@@ -67,11 +67,8 @@ export default function SwiperCarousal() {
       
   return (
 
-    <Box 
-    width={"97%"}
-    margin={5}>
+    <>
     <Swiper
-    
   spaceBetween={20}
   autoplay={{
     delay: 2500,
@@ -112,6 +109,6 @@ export default function SwiperCarousal() {
     </Box>  
 })}        
       </Swiper>
-    </Box>
+    </>
   );
 }

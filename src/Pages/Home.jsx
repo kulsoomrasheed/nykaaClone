@@ -19,6 +19,7 @@ import Modall from "../Components/Modal";
 import axios from "axios";
 import CaptionCarousel from "../Components/Check";
 import Check from "../Components/Check";
+import SwiperCarousal from "../Components/SwiperCarousal";
 const data=[
   {
     "img": "https://images-static.nykaa.com/creatives/90b13d57-9dc2-4180-87e7-08a77b94208c/default.jpg?tr=w-400,cm-pad_resize",
