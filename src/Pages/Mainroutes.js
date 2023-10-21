@@ -16,11 +16,11 @@ const Mainroutes = () => {
         <Route path='/categories' element={<Categories/>}/>
         <Route path='/brands' element={<Brands/>}/>
         <Route path='login/' element={<Login/>}/>
-        <Route path='nykaaNaturals' element={<NykaaNaturals/>}/>
+        <Route path='/nykaaNaturals' element={<NykaaNaturals/>}/>
         <Route path='/view' element={<AllProducts/>}/>
 
-        <Route path='signup/' element={<Signup/>}/>
-        <Route path='lakme/' element={<Lakme/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/lakme' element={<Lakme/>}/>
 
         <Route path='*' element={<NotFound/>}/>
 

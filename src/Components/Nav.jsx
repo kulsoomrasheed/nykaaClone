@@ -87,9 +87,8 @@ const Nav = () => {
             label="Register now and get 2000 Nykaa reward points instantly!"
           />
         </div>
-        <Button onClick={() => navigate('/signup...')}>
-          Sign Up
-        </Button>
+        <Button onClick={()=>navigate("/signup")} bgColor={'#e80071'} colorScheme='pink' color={'white'} fontSize={'sm'}> Sign up</Button>
+      <Check/>
       </Flex>
     </Box>
   );
