@@ -25,7 +25,7 @@ const Nav = () => {
         <div> <Modall text={'Sign in'} btntext={'Sign in with Email'} heading={"Login"} label="Register now and get 2000 Nykaa reward points instantly!"/>
         
         </div>
-        <Button onClick={()=>navigate("/signup")} bgColor={'#e80071'} color={'white'} fontSize={'sm'}> Sign up</Button>
+        <Button onClick={()=>navigate("/signup")} bgColor={'#e80071'} colorScheme='pink' color={'white'} fontSize={'sm'}> Sign up</Button>
       <Check/>
     </Flex>
     </Box>

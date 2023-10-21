@@ -21,7 +21,7 @@ navigate("/login")
   return (
     <Popover >
   <PopoverTrigger>
-    <Button fontSize={'sm'} bgColor={'#e80071'} color={'white'}>{text}</Button>
+    <Button fontSize={'sm'} colorScheme='pink' bgColor={'#e80071'} color={'white'}>{text}</Button>
   </PopoverTrigger>
   <Portal>
     <PopoverContent textAlign={'center'}>
@@ -30,7 +30,7 @@ navigate("/login")
       <p>{label}</p>
       <PopoverCloseButton />
       <PopoverBody>
-        <Button onClick={handleClick} bgColor='#e80071' color={'white'}>{btntext}</Button>
+        <Button onClick={handleClick} bgColor='#e80071' colorScheme='pink'  color={'white'}>{btntext}</Button>
         
       </PopoverBody>
     </PopoverContent>
