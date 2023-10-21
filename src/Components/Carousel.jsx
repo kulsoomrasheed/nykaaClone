@@ -98,7 +98,7 @@ export default function SwiperCarousal() {
     borderRadius={6}
     position="relative">
  <SwiperSlide>
-    <Image src={el.img}></Image>
+    <Image  borderRadius={18} src={el.img}></Image>
 <Stack
             position="absolute"
             bottom="2"
