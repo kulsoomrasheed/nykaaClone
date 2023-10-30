@@ -68,7 +68,7 @@ Hot List
 export default JustDroppedProducts;
 */
 
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide ,Breakpoints} from "swiper/react";
 
@@ -81,11 +81,26 @@ import "../App.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { Box, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Heading, Image, Spinner, Stack, Text } from "@chakra-ui/react";
 import Cards from "./Card";
+import axios from "axios";
 
 
   const JustDroppedProducts = () => {
+    const[ data, setData]= useState([])
+
+   useEffect(()=>{
+    fetchData()
+   },[])
+
+    const fetchData=()=>{
+      axios.get("https://nykaa-server-wg8d.onrender.com/nykaa/products").then((res)=>{
+        console.log(res.data.msg);
+        setData(res.data.msg);
+      }).catch((err)=>{
+        console.log(err.message);
+      })
+    }
 
     const breakpoints = {
         320: {
@@ -111,34 +126,34 @@ Just Dropped
 </Heading><Heading fontSize={'md'} mb={4} textAlign={'left'} ml={6}>Nykaa’s Super Sellers
 
 </Heading>
-    <Swiper
+    {data?<Swiper
     
-  spaceBetween={20}
-  autoplay={{
-    delay: 2500,
-    disableOnInteraction: false
-  }}
-  pagination={{
-    clickable: true
-  }}
-  navigation={true}
-  modules={[Autoplay, Pagination, Navigation]}
-  className="mySwiper"
-  breakpoints={breakpoints} // Add this line
->
-
-{justDropped.map((el,i)=>{
-    return      <Box 
-    width={"97%"}
-    margin={"auto"}
-    marginBottom={3}
-   >
- <SwiperSlide>
-   <Cards {...el}/>
-</SwiperSlide>
-    </Box>  
-})}        
-      </Swiper>
+    spaceBetween={20}
+    autoplay={{
+      delay: 2500,
+      disableOnInteraction: false
+    }}
+    pagination={{
+      clickable: true
+    }}
+    navigation={true}
+    modules={[Autoplay, Pagination, Navigation]}
+    className="mySwiper"
+    breakpoints={breakpoints} // Add this line
+  >
+  
+  {justDropped.map((el,i)=>{
+      return      <Box 
+      width={"97%"}
+      margin={"auto"}
+      marginBottom={3}
+     >
+   <SwiperSlide>
+     <Cards {...el}/>
+  </SwiperSlide>
+      </Box>  
+  })}        
+        </Swiper>:<Spinner/>}
       <Heading  color={'pink.500'} fontSize={'2xl'} textAlign={'right'} mr={6}>
 <a href="/view">View All
 </a>

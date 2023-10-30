@@ -16,8 +16,9 @@ import {
     BreadcrumbLink,
     BreadcrumbSeparator,
     HStack,
+    Spinner,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Border from "./Border";
 import Top from "./Top";
 import Nav from "./Nav";
@@ -33,8 +34,25 @@ import Sidebar from "./Sidebar";
 import Check from "./Check";
 import Cartalert from "./Cartalert";
 import Navbar from "./Navbar";
+import axios from "axios";
 
 const AllProducts = () => {
+  const[ data, setData]= useState([])
+
+   useEffect(()=>{
+    fetchData()
+   },[])
+
+    const fetchData=()=>{
+      axios.get("https://nykaa-server-wg8d.onrender.com/nykaa/products").then((res)=>{
+        console.log(res.data.msg);
+        setData(res.data.msg);
+      }).catch((err)=>{
+        console.log(err.message);
+      })
+    }
+
+
  
 
   return (
@@ -67,7 +85,7 @@ All Products (5465)
 </Heading>
 <Box bgColor={'white'} display={'flex'}  w={'80%'} marginX={'auto'}>
   <Sidebar/>
-<Products data={justDropped}/>
+{data?<Products data={data}/>:<Spinner size={'4xl'} />}
 </Box>
 </Box>
       <Footer />

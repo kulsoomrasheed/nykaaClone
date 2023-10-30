@@ -54,13 +54,13 @@ const Cards = ({name,img ,price,qty,featured,shades, offer,best}) => {
                 fontSize={'md'}>
         💖
               </Button>
-              <Button 
+              <Button  
              margin={1}
                 bgColor={"#e80071"}
                 colorScheme={"pink"}
                 variant={"solid"}
                 padding={2}
-                fontSize={'xs'}>
+                fontSize={'x.3s'}>
 Add to Cart 
        
               </Button></Flex>

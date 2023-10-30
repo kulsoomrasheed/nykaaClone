@@ -63,13 +63,7 @@ const data=[
 
 const Home = () => {
   
-  useEffect(()=>{
-    axios.get("http://localhost:4000/").then((res)=>{
-    console.log(res.data);
-}).catch((err)=>{
-    console.log(err.message);
-})
-  },[])
+
   return (
     <Box  width={"100%"} margin={"auto"}>
       <Border/>
