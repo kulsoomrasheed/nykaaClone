@@ -67,16 +67,10 @@ import Cartalert from "./Cartalert"
                 fontSize={'md'}>
         💖
               </Button>
-              <Button 
-             margin={1}
-                bgColor={"#e80071"}
-                colorScheme={"pink"}
-                variant={"solid"}
-                padding={2}
-                fontSize={'xs'}>
-Add to Cart 
+              
+            
        
-              </Button></Flex>
+<Cartalert title={'Add to Cart '} el={el}/></Flex>
            </Box>
          </Box>
         })}

@@ -1,33 +1,40 @@
-import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, Button, CloseButton, useDisclosure } from "@chakra-ui/react"
-import Check from "./Check"
+import { Button, useToast } from "@chakra-ui/react"
+import axios from "axios"
 
-function Cartalert() {
-    const {
-      isOpen: isVisible,
-      onClose,
-      onOpen,
-    } = useDisclosure({ defaultIsOpen: true })
-  
-    return isVisible ? (
-      <Alert status='success'>
-        <AlertIcon />
-        <Box>
-          <AlertTitle>Added Successfully!</AlertTitle>
-          <AlertDescription>
-            Your Product is added to Cart <Check/>
-          </AlertDescription>
-        </Box>
-        <CloseButton
-          alignSelf='flex-start'
-          position='relative'
-          right={-1}
-          top={-1}
-          onClick={onClose}
-        />
-      </Alert>
-    ) : (
-      <Button onClick={onOpen}>Show Alert</Button>
-    )
+const ToastExample = ({ title,el }) => {
+  const toast = useToast()
+
+  const postData = () => {
+    // Your code to handle the post data operation
+    axios.post("https://nykaa-server-wg8d.onrender.com/nykaa/cart",el).then((res)=>{
+      console.log(res.data);
+    }).catch((err) => {
+console.log(err.message);
+    })
   }
 
-  export default Cartalert
+  return (
+    <Button
+      margin={1}
+      bgColor={"#e80071"}
+      colorScheme={"pink"}
+      variant={"solid"}
+      padding={2}
+      fontSize={'xs'}
+      onClick={() => {
+        postData(); // Call the postData function
+        toast({
+          title: "Added to Cart!",
+          description: "Go to Cart for Checkout",
+          status: 'success',
+          duration: 9000,
+          isClosable: true,
+        })
+      }}
+    >
+      {title}
+    </Button>
+  )
+}
+
+export default ToastExample

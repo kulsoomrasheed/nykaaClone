@@ -17,6 +17,7 @@ import {
     BreadcrumbSeparator,
     HStack,
     Spinner,
+    Skeleton,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import Border from "./Border";
@@ -81,11 +82,21 @@ const AllProducts = () => {
 <Box bgColor={'rgb(243, 243, 243)'}>
 <Heading fontSize={'4xl'}  textAlign={'center'}  bgGradient="linear(to-r, red.400, purple.600)"
         backgroundClip="text" margin={5} mt={5}>
-All Products (5465)
+All Products (565)
+
 </Heading>
 <Box bgColor={'white'} display={'flex'}  w={'80%'} marginX={'auto'}>
   <Sidebar/>
-{data?<Products data={data}/>:<Spinner size={'4xl'} />}
+{data?<Products data={data}/>: <Stack>
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' /> <Skeleton height='20px' />
+  <Skeleton height='20px' />
+  <Skeleton height='20px' />
+</Stack>}
 </Box>
 </Box>
       <Footer />
