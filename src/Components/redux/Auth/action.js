@@ -6,7 +6,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 export const signup = (obj)=>(dispatch) => {
     dispatch({type:LOGIN_PENDING})
-axios.post("http://localhost:4000/api/register",obj).then((res)=>{
+axios.post("https://nykaa-server-wg8d.onrender.com/user/register",obj).then((res)=>{
     dispatch({type:LOGIN_SUCCESS})
     console.log(res.data);
 }).catch((err)=>{
@@ -19,7 +19,7 @@ axios.post("http://localhost:4000/api/register",obj).then((res)=>{
 
 export const login = (obj)=>(dispatch) => {
     dispatch({type:LOGIN_PENDING})
-return axios.post("http://localhost:4000/api/login",obj).then((res)=>{
+return axios.post("https://nykaa-server-wg8d.onrender.com/user/login",obj).then((res)=>{
     dispatch({type:LOGIN_SUCCESS,payload:res.data.token})
     console.log(res.data);
     alert("Login successfully!")

@@ -137,3 +137,10 @@
   height: 100%;
   object-fit: cover;
 }
+
+.dropdown li , .dropdown ul{
+  margin: 0;
+  padding: 0;
+}
+
+

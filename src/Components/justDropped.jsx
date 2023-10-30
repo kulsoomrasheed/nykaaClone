@@ -95,7 +95,7 @@ import Cards from "./Card";
           slidesPerView: 3,
         },
         768: {
-          slidesPerView: 5,
+          slidesPerView: 6,
         },
       };
 
