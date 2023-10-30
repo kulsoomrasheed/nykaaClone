@@ -54,7 +54,7 @@ const Signup = () => {
       <Stack
         borderRadius={6}
         h={"400"}
-        minH={"95vh"}
+        minH={"75vh"}
         direction={{ base: "column", md: "row" }}
       >
         <Flex p={8} margin={10} flex={1} align={"center"} justify={"center"}>
@@ -92,8 +92,9 @@ const Signup = () => {
         </Flex>
         <Flex flex={1}>
           <Image
+          width={'60%'}
             borderRadius={9}
-            margin={20}
+            margin={10}
             boxShadow={50}
             alt={"Login Image"}
             objectFit={"cover"}

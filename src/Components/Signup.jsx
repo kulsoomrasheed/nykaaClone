@@ -38,8 +38,8 @@ const dispatch=useDispatch()
         <Border/>
   
         <Nav />
-        <Stack borderRadius={6} h={'400'} minH={'95vh'} direction={{ base: 'column', md: 'row' }}>
-      <Flex p={8} margin={10} flex={1} align={'center'} justify={'center'}>
+        <Stack borderRadius={6} h={'400'} minH={'75vh'} direction={{ base: 'column', md: 'row' }}>
+      <Flex p={8} margin={10} flex={1} align={'center'}  justifyContent={'center'}>
         <Stack spacing={4} w={'full'} maxW={'md'}>
           <Heading color={'#e80071'} margin={'auto'} mb={5} fontSize={'4xl'}>Sign up to your account</Heading>
           <FormControl id="email">
@@ -53,18 +53,19 @@ const dispatch=useDispatch()
           <Stack spacing={3}>
             <Stack
               direction={{ base: 'column', sm: 'row' }}
-              align={'start'}
+              align={'center'}
               justify={'space-between'}>
             </Stack>
             <Button onClick={handleclick} bgColor={'#e80071'} colorScheme={'pink'} variant={'solid'}>
-              Sign in
+              Sign up
             </Button>
           </Stack>
         </Stack>
       </Flex>
       <Flex flex={1}>
         <Image
-        borderRadius={9} margin={20} boxShadow={50} 
+        width={'60%'}
+        borderRadius={9} margin={10}  
           alt={'Login Image'}
           objectFit={'cover'}
           src={
