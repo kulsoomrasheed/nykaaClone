@@ -44,9 +44,9 @@ import Cartalert from "./Cartalert"
              </Box>
      
              <Box>
-             {el.price}
-               <Box as='span' color='green.300' fontSize='sm'>
-                 / {el.offer}
+             ₹{el.price}
+               <Box m={2} as='span' color='green.300' fontSize='sm'>
+                  {el.offer}
                </Box>
              </Box>
      
