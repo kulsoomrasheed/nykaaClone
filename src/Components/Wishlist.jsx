@@ -7,8 +7,10 @@ import Top from './Top'
 import Nav from './Nav'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import axios from 'axios'
 
 const Wishlist = () => {
+  
   return (
     <div>
         <Box  width={"100%"} margin={"auto"}>
