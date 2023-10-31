@@ -88,6 +88,7 @@ const Nav = () => {
           />
         </div>
         <Button onClick={()=>navigate("/signup")} bgColor={'#e80071'} colorScheme='pink' color={'white'} fontSize={'sm'}> Sign up</Button>
+        <Button onClick={()=>navigate("/wishlist")}  fontSize={'xs'} bgColor={"#e80071"} colorScheme='pink'><Image width={5} src='https://static-00.iconduck.com/assets.00/wishlist-icon-2048x1952-13b2gake.png'/></Button>
       <Check/>
       </Flex>
     </Box>

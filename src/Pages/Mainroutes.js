@@ -9,6 +9,7 @@ import Signup from '../Components/Signup';
 import Lakme from '../Components/Lakme';
 import NykaaNaturals from '../Components/Nykaanaturals';
 import AllProducts from '../Components/AllProducts';
+import Wishlist from '../Components/Wishlist';
 const Mainroutes = () => {
   return (
     <Routes>
@@ -18,6 +19,7 @@ const Mainroutes = () => {
         <Route path='login/' element={<Login/>}/>
         <Route path='/nykaaNaturals' element={<NykaaNaturals/>}/>
         <Route path='/view' element={<AllProducts/>}/>
+        <Route path='/wishlist' element={<Wishlist/>}/>
 
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/lakme' element={<Lakme/>}/>
