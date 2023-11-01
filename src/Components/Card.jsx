@@ -1,7 +1,20 @@
 import { Badge, Box, Button, ButtonGroup, Divider, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import axios from 'axios'
+import Cartalert from "./Cartalert"
 const Cards = ({name,img ,price,qty,featured,shades, offer,best}) => {
+  const obj={name,img ,price,qty,featured,shades, offer,best}
+
+  const handleWishlist=(name,img ,price,qty,featured,shades, offer,best)=>{
+    // Your code to handle the post data operation
+    axios.post("https://nykaa-server-wg8d.onrender.com/nykaa/wishlist",obj).then((res)=>{
+      console.log(res.data);
+    }).catch((err) => {
+console.log(err.message);
+    })
+  
+}
   return (
     <div>
   <Box  justifyContent={'center'} maxW='sm' borderWidth='1px' gap={5} margin={1} borderRadius={10} overflow='hidden'> <Box display='flex' alignItems='baseline'>
@@ -51,19 +64,10 @@ const Cards = ({name,img ,price,qty,featured,shades, offer,best}) => {
                 variant={"solid"}
                 padding={2}
                 color={'#e80071'}
-                fontSize={'md'}>
+                fontSize={'md'} onClick={()=>handleWishlist(name,img ,price,qty,featured,shades, offer,best)}>
         💖
               </Button>
-              <Button  
-             margin={1}
-                bgColor={"#e80071"}
-                colorScheme={"pink"}
-                variant={"solid"}
-                padding={2}
-                fontSize={'x.3s'}>
-Add to Cart 
-       
-              </Button></Flex>
+              <Cartalert title={'Add to Cart '} el={obj}/></Flex>
            </Box>
          </Box>
         </div>

@@ -3,8 +3,19 @@ import { Alert, AlertDialog, Badge, Box, Button, Flex, Grid, Image, Text } from 
 import { lakme, lakmeCat } from "../data/TopBrands"
 import { useNavigate } from "react-router-dom"
 import Cartalert from "./Cartalert"
+import axios from "axios"
 
  const Products=({data})=> {
+
+  const handleWishlist=(el)=>{
+      // Your code to handle the post data operation
+      axios.post("https://nykaa-server-wg8d.onrender.com/nykaa/wishlist",el).then((res)=>{
+        console.log(res.data);
+      }).catch((err) => {
+  console.log(err.message);
+      })
+    
+  }
     
   const navigate = useNavigate()
     return (
@@ -64,7 +75,7 @@ import Cartalert from "./Cartalert"
                 variant={"solid"}
                 padding={2}
                 color={'#e80071'}
-                fontSize={'md'}>
+                fontSize={'md'} onClick={()=>handleWishlist(el)}>
         💖
               </Button>
               
