@@ -1,11 +1,23 @@
-import { StarIcon } from "@chakra-ui/icons"
-import { Alert, AlertDialog, Badge, Box, Button, Flex, Grid, Image, Text } from "@chakra-ui/react"
+import { DeleteIcon, StarIcon } from "@chakra-ui/icons"
+import {AlertDialog, Badge, Box, Button, Flex, Grid, Image, Text } from "@chakra-ui/react"
 import { lakme, lakmeCat } from "../data/TopBrands"
 import { useNavigate } from "react-router-dom"
 import Cartalert from "./Cartalert"
 import axios from "axios"
+import Alertt from "./Alert"
 
- const Products=({data})=> {
+ const Products=({data},wish)=> {
+  console.log(wish);
+  const deleteItem=(_id)=>{
+    // Your code to handle the post data operation
+    axios.delete(`https://nykaa-server-wg8d.onrender.com/nykaa/wishlist/${_id}`).then((res)=>{
+      console.log(res.data)
+      window.location.reload()
+    }).catch((err) => {
+console.log(err.message);
+    })
+  
+}
 
   const handleWishlist=(el)=>{
       // Your code to handle the post data operation
@@ -70,18 +82,20 @@ import axios from "axios"
                  {el.shades }
                </Box>
              
-            <Flex justifyContent={'center'}> <Button
+            <Flex justifyContent={'center'} alignContent={'center'} alignItems={'center'} gap={2}> 
+            <Button 
              margin={1}
-                variant={"solid"}
-                padding={2}
+             variant={'outline'}                padding={2}
                 color={'#e80071'}
-                fontSize={'md'} onClick={()=>handleWishlist(el)}>
+                fontSize={'md'} onClick={()=>handleWishlist(el) } >
         💖
               </Button>
               
             
        
-<Cartalert title={'Add to Cart '} el={el}/></Flex>
+<Cartalert title={'Add to Cart '} el={el}/> 
+
+</Flex>
            </Box>
          </Box>
         })}

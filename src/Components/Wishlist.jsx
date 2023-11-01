@@ -12,7 +12,7 @@ import axios from 'axios'
 const Wishlist = () => {
   const[ data, setData]= useState([])
   const[ load, setload]= useState(false   )
-
+const wish = true
 
   useEffect(()=>{
    fetchData()
@@ -44,7 +44,7 @@ const Wishlist = () => {
     
         <Heading size={"2xl"} m={5} bgGradient="linear(to-r, red.400, purple.600)"
         backgroundClip="text">My Wishlist ({data?.length})</Heading>
-        {load?<Spinner size={'xl'} color='purple'/>:<Products data={data}/> }
+        {load?<Spinner size={'xl'} color='purple'/>:<Products data={data} wish={wish}/> }
          <Footer/>
 </Box>
     </div>

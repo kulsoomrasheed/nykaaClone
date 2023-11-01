@@ -59,10 +59,10 @@ console.log(err.message);
                  {shades }
                </Box>
              
-            <Flex justifyContent={'center'}> <Button
+            <Flex justifyContent={'center'}>
+               <Button
              margin={1}
-                variant={"solid"}
-                padding={2}
+             variant={'outline'}                padding={2}
                 color={'#e80071'}
                 fontSize={'md'} onClick={()=>handleWishlist(name,img ,price,qty,featured,shades, offer,best)}>
         💖

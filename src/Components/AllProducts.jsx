@@ -39,7 +39,6 @@ import axios from "axios";
 
 const AllProducts = () => {
   const[ data, setData]= useState([])
-
    useEffect(()=>{
     fetchData()
    },[])
@@ -87,7 +86,7 @@ All Products (565)
 </Heading>
 <Box bgColor={'white'} display={'flex'}  w={'80%'} marginX={'auto'}>
   <Sidebar/>
-{data?<Products data={data}/>: <Stack>
+{data?<Products data={data} />: <Stack>
   <Skeleton height='20px' />
   <Skeleton height='20px' />
   <Skeleton height='20px' />

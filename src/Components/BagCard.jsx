@@ -7,6 +7,7 @@ const BagCard = ({img,name,_id}) => {
   const handleDelete=(id)=>{
       axios.delete(`https://nykaa-server-wg8d.onrender.com/nykaa/cart/${id}`).then((res)=>{
         console.log(res.data.msg);
+        window.location.reload()
       }).catch((err)=>{
         console.log(err.message);
       })
