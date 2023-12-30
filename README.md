@@ -1,9 +1,9 @@
-# Nykaa Clone 💄  
+#Araish Cosmetics-( Nykaa Clone ) 💄  
 
 Click here: https://nykaa-clone-by-kulsoom.netlify.app/
 
 ## Overview
-Welcome to my Nykaa clone project! 👋 This MERN stack application is a testament to my passion for web development and e-commerce. It's more than just a project; it's a showcase of my skills, creativity, and dedication.💄✨ Discover your beauty essentials with our Nykaa-inspired platform. Explore a vast selection of makeup, skincare, and wellness products. Experience seamless shopping and expert beauty advice, all in one place. 💅🛍️
+Welcome to my Araish Cosmetics! 👋 This MERN stack application is a testament to my passion for web development and e-commerce. It's more than just a project; it's a showcase of my skills, creativity, and dedication.💄✨ Discover your beauty essentials with our Nykaa-inspired platform. Explore a vast selection of makeup, skincare, and wellness products. Experience seamless shopping and expert beauty advice, all in one place. 💅🛍️
 
 ## 🚀 Key Features
 ✨ **Product Catalog**: A vast collection of beauty and wellness products, just like the real Nykaa!
@@ -36,9 +36,6 @@ This project is always evolving. Future enhancements may include payment integra
 
 ## 🙌 Get Involved
 Your contributions and feedback are highly encouraged. Please feel free to open issues, submit pull requests, and share your thoughts on how to make this project even better.
-
-## 📝 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 If you have any questions or just want to connect, feel free to reach out. Let's chat!
