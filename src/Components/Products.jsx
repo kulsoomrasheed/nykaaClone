@@ -94,7 +94,7 @@ console.log(err.message);
             
        
 <Cartalert title={'Add to Cart '} el={el}/> 
-
+<Button style={{ display: wish ? 'block' : 'none' }}  variant={'outline'}><DeleteIcon  fontSize={'3xl'} onClick={()=>deleteItem(el._id)} color={'#e80071'}/></Button>
 </Flex>
            </Box>
          </Box>

@@ -20,9 +20,9 @@ import { BiMailSend } from 'react-icons/bi'
 const Logo = (props) => {
   return (
     <Image 
-    w={20}
+    w={40}
     ml={20}
-      src="logo.png"
+      src="araish-footer.png"
       alt="Logo"
       {...props}
     />
@@ -78,7 +78,7 @@ export default function Footer() {
             <Box>
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
-            <Text fontSize={'sm'}>© 2022 Chakra Templates. All rights reserved</Text>
+            <Text fontSize={'sm'}>© 2023 Araish . All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'}>
                 <FaTwitter />
@@ -121,7 +121,7 @@ Authenticity            </Box>
             <Box className='boxes' as="a" href={'#'}>
 Testimonials            </Box>
             <Box className='boxes' as="a" href={'#'}>
-              Nykaa CSR
+              Araish CSR
             </Box>
             <Box className='boxes' as="a" href={'#'}>
               Responsible Disclosures
