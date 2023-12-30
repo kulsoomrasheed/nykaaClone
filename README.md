@@ -1,4 +1,4 @@
-#Araish Cosmetics-( Nykaa Clone ) 💄  
+# Araish Cosmetics-( Nykaa Clone ) 💄  
 
 Click here: https://nykaa-clone-by-kulsoom.netlify.app/
 
