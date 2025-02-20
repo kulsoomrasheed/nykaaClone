@@ -104,16 +104,3 @@ All Products (565)
 };
 
 export default AllProducts;
-/*  <iframe
-      style={{ display: 'block', margin: 'auto',borderRadius:9,boxShadow:6 }}
-      width="1280"
-      height="720"
-      src="https://www.youtube.com/embed/qIJcl2go_S4?autoplay=1&loop=infinity"
-      title="Lakmé Blush and Glow Sheet Mask"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-    */
-
-  

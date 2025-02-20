@@ -53,71 +53,60 @@ export default Customcrsl;
 */
 import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide ,Breakpoints} from "swiper/react";
+import { Swiper, SwiperSlide, Breakpoints } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import topBrands from "../data/TopBrands"
+import topBrands from "../data/TopBrands";
 import "../App.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Box, Heading, Image, Stack, Text } from "@chakra-ui/react";
 
+const Customcrsl = ({ data, num }) => {
+  const breakpoints = {
+    320: {
+      slidesPerView: 2,
+    },
+    640: {
+      slidesPerView: 3,
+    },
+    768: {
+      slidesPerView: 5,
+    },
+  };
 
-  const Customcrsl = ({ data ,num}) => {
-
-    const breakpoints = {
-        320: {
-          slidesPerView: 2,
-        },
-        640: {
-          slidesPerView: 3,
-        },
-        768: {
-          slidesPerView: 5,
-        },
-      };
-
-      
   return (
-
-    <Box 
-    width={"97%"}
-    margin={5}>
-    <Swiper
-    
-  spaceBetween={20}
-  autoplay={{
-    delay: 2500,
-    disableOnInteraction: false
-  }}
-  pagination={{
-    clickable: true
-  }}
-  navigation={true}
-  modules={[Autoplay, Pagination, Navigation]}
-  className="mySwiper"
-  breakpoints={breakpoints} // Add this line
->
-
-{data.map((el,i)=>{
-    return      <Box 
-    width={"97%"}
-    margin={"auto"}
-    marginBottom={3}
-   >
- <SwiperSlide>
-    <Image     borderRadius={12}
- src={el.img}></Image>
-</SwiperSlide>
-    </Box>  
-})}        
+    <Box width={"97%"} margin={5}>
+      <Swiper
+        spaceBetween={20}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+        breakpoints={breakpoints} // Add this line
+      >
+        {data.map((el, i) => {
+          return (
+            <Box width={"97%"} margin={"auto"} marginBottom={3}>
+              <SwiperSlide>
+                <Image borderRadius={12} src={el.img}></Image>
+              </SwiperSlide>
+            </Box>
+          );
+        })}
       </Swiper>
     </Box>
   );
-}
-  
-export default Customcrsl
+};
+
+export default Customcrsl;

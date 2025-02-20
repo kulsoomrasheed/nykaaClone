@@ -1,15 +1,12 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide ,Breakpoints} from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import topBrands, { actualJustDropped, justDropped } from "../data/TopBrands"
 import "../App.css";
 
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Box, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import Cards from "./Card";
@@ -55,7 +52,7 @@ Hot List
   navigation={true}
   modules={[Autoplay, Pagination, Navigation]}
   className="mySwiper"
-  breakpoints={breakpoints} // Add this line
+  breakpoints={breakpoints} 
 >
 
 {actualJustDropped.map((el,i)=>{
